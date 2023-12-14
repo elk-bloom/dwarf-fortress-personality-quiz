@@ -1,0 +1,23 @@
+{
+  "name": "dwarf-fortress-personality-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "dwarf-frontend",
+    "dwarf-backend",
+    "shared"
+  ],
+  "scripts": {
+    "build-backend": "tsc -b dwarf-backend",
+    "build-frontend": "tsc -b dwarf-frontend",
+    "build": "npm run build-backend && npm run build-frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  }
+}

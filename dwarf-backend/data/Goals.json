@@ -1,0 +1,67 @@
+[
+  {
+    "Token": "START_A_FAMILY",
+    "Description": "dreams of raising a family",
+    "Gameplay effects": "Goal completed upon giving birth/fathering an infant."
+  },
+  {
+    "Token": "RULE_THE_WORLD",
+    "Description": "dreams of ruling the world",
+    "Gameplay effects": null
+  },
+  {
+    "Token": "CREATE_A_GREAT_WORK_OF_ART",
+    "Description": "dreams of creating a great work of art",
+    "Gameplay effects": "Goal completed upon creation of Artifact or Masterpiece."
+  },
+  {
+    "Token": "CRAFT_A_MASTERWORK",
+    "Description": "dreams of crafting a masterwork someday",
+    "Gameplay effects": "Goal completed upon creation of Artifact or Masterpiece."
+  },
+  {
+    "Token": "BRING_PEACE_TO_THE_WORLD",
+    "Description": "dreams of bringing lasting peace to the world",
+    "Gameplay effects": null
+  },
+  {
+    "Token": "BECOME_A_LEGENDARY_WARRIOR",
+    "Description": "dreams of becoming a legendary warrior",
+    "Gameplay effects": null
+  },
+  {
+    "Token": "MASTER_A_SKILL",
+    "Description": "dreams of mastering a skill",
+    "Gameplay effects": "Goal completed upon reaching Legendary skill status."
+  },
+  {
+    "Token": "FALL_IN_LOVE",
+    "Description": "dreams of falling in love",
+    "Gameplay effects": null
+  },
+  {
+    "Token": "SEE_THE_GREAT_NATURAL_SITES",
+    "Description": "dreams of seeing the great natural places of the world",
+    "Gameplay effects": null
+  },
+  {
+    "Token": "IMMORTALITY",
+    "Description": "has become obsessed with his/her own mortality",
+    "Gameplay effects": "Leads to necromancy. Goal completed upon getting immune to death by old age. Creatures immune from birth cannot have this dream."
+  },
+  {
+    "Token": "MAKE_A_GREAT_DISCOVERY",
+    "Description": "dreams of making a great discovery",
+    "Gameplay effects": null
+  },
+  {
+    "Token": "ATTAIN_RANK_IN_SOCIETY",
+    "Description": "dreams of attaining rank in society",
+    "Gameplay effects": "Goal completed upon becoming a baron (and possibly other noble positions)."
+  },
+  {
+    "Token": "BATHE_WORLD_IN_CHAOS",
+    "Description": "dreams of bathing the world in chaos",
+    "Gameplay effects": null
+  }
+]

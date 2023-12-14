@@ -1,0 +1,2452 @@
+[
+  {
+    "Token": "LOVE_PROPENSITY Conflicts with ROMANCE",
+    "Value": "91-100",
+    "Description": "is always in love with somebody and easily develops positive feelings",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LOVE_PROPENSITY Conflicts with ROMANCE",
+    "Value": "76-90",
+    "Description": "very easily falls into love and develops positive feelings",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LOVE_PROPENSITY Conflicts with ROMANCE",
+    "Value": "61-75",
+    "Description": "can easily fall in love or develop positive sentiments",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LOVE_PROPENSITY Conflicts with ROMANCE",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LOVE_PROPENSITY Conflicts with ROMANCE",
+    "Value": "25-39",
+    "Description": "does not easily fall in love and rarely develops positive sentiments",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LOVE_PROPENSITY Conflicts with ROMANCE",
+    "Value": "10-24",
+    "Description": "is not the type to fall in love or even develop positive feelings",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LOVE_PROPENSITY Conflicts with ROMANCE",
+    "Value": "0-9",
+    "Description": "never falls in love or develops positive feelings toward anything",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HATE_PROPENSITY",
+    "Value": "91-100",
+    "Description": "is often inflamed by hatred and easily develops hatred toward things",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HATE_PROPENSITY",
+    "Value": "76-90",
+    "Description": "is prone to hatreds and often develops negative feelings",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HATE_PROPENSITY",
+    "Value": "61-75",
+    "Description": "is quick to form negative views about things",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HATE_PROPENSITY",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HATE_PROPENSITY",
+    "Value": "25-39",
+    "Description": "does not easily hate or develop negative feelings",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HATE_PROPENSITY",
+    "Value": "10-24",
+    "Description": "very rarely develops negative feelings toward things",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HATE_PROPENSITY",
+    "Value": "0-9",
+    "Description": "never feels hatred toward anyone or anything",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ENVY_PROPENSITY",
+    "Value": "91-100",
+    "Description": "is consumed by overpowering feelings of jealousy",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ENVY_PROPENSITY",
+    "Value": "76-90",
+    "Description": "is prone to strong feelings of jealousy",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ENVY_PROPENSITY",
+    "Value": "61-75",
+    "Description": "often feels envious of others",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ENVY_PROPENSITY",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ENVY_PROPENSITY",
+    "Value": "25-39",
+    "Description": "doesn't often feel envious of others",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ENVY_PROPENSITY",
+    "Value": "10-24",
+    "Description": "is rarely jealous",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ENVY_PROPENSITY",
+    "Value": "0-9",
+    "Description": "never envies others their status, situation or possessions",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CHEER_PROPENSITY Conflicts with MERRIMENT",
+    "Value": "91-100",
+    "Description": "often feels filled with joy",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CHEER_PROPENSITY Conflicts with MERRIMENT",
+    "Value": "76-90",
+    "Description": "can be very happy and optimistic",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CHEER_PROPENSITY Conflicts with MERRIMENT",
+    "Value": "61-75",
+    "Description": "is often cheerful",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CHEER_PROPENSITY Conflicts with MERRIMENT",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CHEER_PROPENSITY Conflicts with MERRIMENT",
+    "Value": "25-39",
+    "Description": "is rarely happy or enthusiastic",
+    "Effects": "Will not generate a positive thought while drunk. 'didn't feel anything due to inebriation.'",
+    "Effects.1": null
+  },
+  {
+    "Token": "CHEER_PROPENSITY Conflicts with MERRIMENT",
+    "Value": "10-24",
+    "Description": "is dour as a rule",
+    "Effects": "Will not generate a positive thought while drunk. 'didn't feel anything due to inebriation.'",
+    "Effects.1": "Will not generate a positive thought working with a preference. 'didn't feel anything at work'"
+  },
+  {
+    "Token": "CHEER_PROPENSITY Conflicts with MERRIMENT",
+    "Value": "0-9",
+    "Description": "is never the slightest bit cheerful about anything",
+    "Effects": "Will not generate a positive thought while drunk. 'didn't feel anything due to inebriation.'",
+    "Effects.1": "Will not generate a positive thought working with a preference. 'didn't feel anything at work'"
+  },
+  {
+    "Token": "DEPRESSION_PROPENSITY",
+    "Value": "91-100",
+    "Description": "is frequently depressed",
+    "Effects": "More likely to slip into depression and be stricken by melancholy.",
+    "Effects.1": null
+  },
+  {
+    "Token": "DEPRESSION_PROPENSITY",
+    "Value": "76-90",
+    "Description": "is often sad and dejected",
+    "Effects": "More likely to slip into depression and be stricken by melancholy.",
+    "Effects.1": null
+  },
+  {
+    "Token": "DEPRESSION_PROPENSITY",
+    "Value": "61-75",
+    "Description": "often feels discouraged",
+    "Effects": "More likely to slip into depression and be stricken by melancholy.",
+    "Effects.1": null
+  },
+  {
+    "Token": "DEPRESSION_PROPENSITY",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DEPRESSION_PROPENSITY",
+    "Value": "25-39",
+    "Description": "rarely feels discouraged",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DEPRESSION_PROPENSITY",
+    "Value": "10-24",
+    "Description": "almost never feels discouraged",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DEPRESSION_PROPENSITY",
+    "Value": "0-9",
+    "Description": "never feels discouraged",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ANGER_PROPENSITY",
+    "Value": "91-100",
+    "Description": "is in a constant state of internal rage",
+    "Effects": "More likely to throw tantrums and go berserk. Unmet needs may trigger negative thought 'frustration.' Arguments may trigger negative thought 'angry after getting into an argument.' (subject to PRIDE, DISCORD)",
+    "Effects.1": null
+  },
+  {
+    "Token": "ANGER_PROPENSITY",
+    "Value": "76-90",
+    "Description": "is very quick to anger",
+    "Effects": "More likely to throw tantrums and go berserk. Unmet needs may trigger negative thought 'frustration.' Arguments may trigger negative thought 'angry after getting into an argument.' (subject to PRIDE, DISCORD)",
+    "Effects.1": null
+  },
+  {
+    "Token": "ANGER_PROPENSITY",
+    "Value": "61-75",
+    "Description": "is quick to anger",
+    "Effects": "More likely to throw tantrums and go berserk. Unmet needs may trigger negative thought 'frustration.' Arguments may trigger negative thought 'angry after getting into an argument.' (subject to PRIDE, DISCORD)",
+    "Effects.1": null
+  },
+  {
+    "Token": "ANGER_PROPENSITY",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ANGER_PROPENSITY",
+    "Value": "25-39",
+    "Description": "is slow to anger",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ANGER_PROPENSITY",
+    "Value": "10-24",
+    "Description": "is very slow to anger",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ANGER_PROPENSITY",
+    "Value": "0-9",
+    "Description": "never becomes angry",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ANXIETY_PROPENSITY",
+    "Value": "91-100",
+    "Description": "is a nervous wreck",
+    "Effects": "More likely to stumble obliviously and go stark raving mad.",
+    "Effects.1": null
+  },
+  {
+    "Token": "ANXIETY_PROPENSITY",
+    "Value": "76-90",
+    "Description": "is always tense and jittery",
+    "Effects": "More likely to stumble obliviously and go stark raving mad.",
+    "Effects.1": null
+  },
+  {
+    "Token": "ANXIETY_PROPENSITY",
+    "Value": "61-75",
+    "Description": "is often nervous",
+    "Effects": "More likely to stumble obliviously and go stark raving mad.",
+    "Effects.1": null
+  },
+  {
+    "Token": "ANXIETY_PROPENSITY",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ANXIETY_PROPENSITY",
+    "Value": "25-39",
+    "Description": "has a calm demeanor",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ANXIETY_PROPENSITY",
+    "Value": "10-24",
+    "Description": "has a very calm demeanor",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ANXIETY_PROPENSITY",
+    "Value": "0-9",
+    "Description": "has an incredibly calm demeanor",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LUST_PROPENSITY",
+    "Value": "91-100",
+    "Description": "is constantly ablaze with feelings of lust",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LUST_PROPENSITY",
+    "Value": "76-90",
+    "Description": "is prone to strong feelings of lust",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LUST_PROPENSITY",
+    "Value": "61-75",
+    "Description": "often feels lustful",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LUST_PROPENSITY",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LUST_PROPENSITY",
+    "Value": "25-39",
+    "Description": "does not often feel lustful",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LUST_PROPENSITY",
+    "Value": "10-24",
+    "Description": "rarely looks on others with lust",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "LUST_PROPENSITY",
+    "Value": "0-9",
+    "Description": "never feels lustful passions",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "STRESS_VULNERABILITY",
+    "Value": "91-100",
+    "Description": "becomes completely helpless in stressful situations",
+    "Effects": "50% chance to become catatonic",
+    "Effects.1": null
+  },
+  {
+    "Token": "STRESS_VULNERABILITY",
+    "Value": "76-90",
+    "Description": "cracks easily under pressure",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "STRESS_VULNERABILITY",
+    "Value": "61-75",
+    "Description": "doesn't handle stress well",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "STRESS_VULNERABILITY",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "STRESS_VULNERABILITY",
+    "Value": "25-39",
+    "Description": "can handle stress",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "STRESS_VULNERABILITY",
+    "Value": "10-24",
+    "Description": "is confident under pressure",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "STRESS_VULNERABILITY",
+    "Value": "0-9",
+    "Description": "is impervious to the effects of stress",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GREED",
+    "Value": "91-100",
+    "Description": "is as avaricious as they come, obsessed with acquiring wealth",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GREED",
+    "Value": "76-90",
+    "Description": "is very greedy",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GREED",
+    "Value": "61-75",
+    "Description": "has a greedy streak",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GREED",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GREED",
+    "Value": "25-39",
+    "Description": "doesn't focus on material goods",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GREED",
+    "Value": "10-24",
+    "Description": "desires little for [him/her]self in the way of possessions",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GREED",
+    "Value": "0-9",
+    "Description": "often neglects [his/her] own wellbeing, having no interest in material goods",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODERATION Conflicts with SELF_CONTROL",
+    "Value": "91-100",
+    "Description": "is ruled by irresistible cravings and urges",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODERATION Conflicts with SELF_CONTROL",
+    "Value": "76-90",
+    "Description": "feels strong urges and seeks short-term rewards",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODERATION Conflicts with SELF_CONTROL",
+    "Value": "61-75",
+    "Description": "occasionally overindulges",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODERATION Conflicts with SELF_CONTROL",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODERATION Conflicts with SELF_CONTROL",
+    "Value": "25-39",
+    "Description": "doesn't often experience strong cravings or urges",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODERATION Conflicts with SELF_CONTROL",
+    "Value": "10-24",
+    "Description": "only rarely feels strong cravings or urges",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODERATION Conflicts with SELF_CONTROL",
+    "Value": "0-9",
+    "Description": "never feels tempted to overindulge in anything",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VIOLENT\u2020 Conflicts with TRANQUILITY and MARTIAL_PROWESS",
+    "Value": "91-100",
+    "Description": "is given to rough-and-tumble brawling, even to the point of starting fights for no reason",
+    "Effects": "This does not actually cause a dwarf to randomly start a fistfight.[Verify]",
+    "Effects.1": null
+  },
+  {
+    "Token": "VIOLENT\u2020 Conflicts with TRANQUILITY and MARTIAL_PROWESS",
+    "Value": "76-90",
+    "Description": "would never pass up a chance for a good fistfight",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VIOLENT\u2020 Conflicts with TRANQUILITY and MARTIAL_PROWESS",
+    "Value": "61-75",
+    "Description": "likes to brawl",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VIOLENT\u2020 Conflicts with TRANQUILITY and MARTIAL_PROWESS",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VIOLENT\u2020 Conflicts with TRANQUILITY and MARTIAL_PROWESS",
+    "Value": "25-39",
+    "Description": "tends to avoid any physical confrontations",
+    "Effects": "This does not affect a soldier's will to fight, but will cause civilians to flee from danger.[Verify]",
+    "Effects.1": null
+  },
+  {
+    "Token": "VIOLENT\u2020 Conflicts with TRANQUILITY and MARTIAL_PROWESS",
+    "Value": "10-24",
+    "Description": "does not enjoy participating in physical confrontations",
+    "Effects": "This does not affect a soldier's will to fight, but will cause civilians to flee from danger.[Verify]",
+    "Effects.1": null
+  },
+  {
+    "Token": "VIOLENT\u2020 Conflicts with TRANQUILITY and MARTIAL_PROWESS",
+    "Value": "0-9",
+    "Description": "would flee even the most necessary battle to avoid any form of physical confrontation",
+    "Effects": "This does not affect a soldier's will to fight, but will cause civilians to flee from danger.[Verify]",
+    "Effects.1": null
+  },
+  {
+    "Token": "PERSEVERANCE Conflicts with PERSEVERANCE",
+    "Value": "91-100",
+    "Description": "is unbelievably stubborn, and will stick with even the most futile action once [his/her] mind is made up",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERSEVERANCE Conflicts with PERSEVERANCE",
+    "Value": "76-90",
+    "Description": "is very stubborn",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERSEVERANCE Conflicts with PERSEVERANCE",
+    "Value": "61-75",
+    "Description": "is stubborn",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERSEVERANCE Conflicts with PERSEVERANCE",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERSEVERANCE Conflicts with PERSEVERANCE",
+    "Value": "25-39",
+    "Description": "has a noticeable lack of perseverance",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERSEVERANCE Conflicts with PERSEVERANCE",
+    "Value": "10-24",
+    "Description": "doesn't stick with things if even minor difficulties arise",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERSEVERANCE Conflicts with PERSEVERANCE",
+    "Value": "0-9",
+    "Description": "drops any activity at the slightest hint of difficulty or even the suggestion of effort being required",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "WASTEFULNESS\u2020",
+    "Value": "91-100",
+    "Description": "is completely careless with resources when completing projects, and invariably wastes a lot of time and effort",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "WASTEFULNESS\u2020",
+    "Value": "76-90",
+    "Description": "is not careful with resources when working on projects and often spends unnecessary effort",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "WASTEFULNESS\u2020",
+    "Value": "61-75",
+    "Description": "tends to be a little wasteful when working on projects",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "WASTEFULNESS\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "WASTEFULNESS\u2020",
+    "Value": "25-39",
+    "Description": "tends to be a little tight with resources when working on projects",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "WASTEFULNESS\u2020",
+    "Value": "10-24",
+    "Description": "is stingy with resources on projects and refuses to expend any extra effort",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "WASTEFULNESS\u2020",
+    "Value": "0-9",
+    "Description": "cuts any corners possible when working on a project, regardless of the consequences, rather than wasting effort or resources",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DISCORD\u2020 Conflicts with HARMONY",
+    "Value": "91-100",
+    "Description": "revels in chaos and discord, and [he/she] encourages it whenever possible",
+    "Effects": "cannot learn Consoler or Pacifier can learn Intimidator (subject only to ASSERTIVENESS)",
+    "Effects.1": "Arguments can trigger positive thought 'satisfied after getting into an argument.'"
+  },
+  {
+    "Token": "DISCORD\u2020 Conflicts with HARMONY",
+    "Value": "76-90",
+    "Description": "finds a chaotic mess preferable to the boredom of harmonious living",
+    "Effects": "cannot learn Consoler or Pacifier can learn Intimidator (subject only to ASSERTIVENESS)",
+    "Effects.1": "Arguments can trigger positive thought 'satisfied after getting into an argument.'"
+  },
+  {
+    "Token": "DISCORD\u2020 Conflicts with HARMONY",
+    "Value": "61-75",
+    "Description": "doesn't mind a little tumult and discord in day-to-day living",
+    "Effects": "can learn Consoler (subject to STOICISM, subject to CRUELTY and SWAYED_BY_EMOTIONS) can learn Pacifier (subject to PEACE) can learn Intimidator (subject to HARMONY, POWER, and TRANQULITY, subject to ASSERTIVENESS)",
+    "Effects.1": "Arguments can trigger positive thought 'satisfied after getting into an argument.'"
+  },
+  {
+    "Token": "DISCORD\u2020 Conflicts with HARMONY",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": "can learn Consoler (subject to STOICISM, subject to CRUELTY and SWAYED_BY_EMOTIONS) can learn Pacifier (subject to PEACE) can learn Intimidator (subject to HARMONY, POWER, and TRANQULITY, subject to ASSERTIVENESS)",
+    "Effects.1": null
+  },
+  {
+    "Token": "DISCORD\u2020 Conflicts with HARMONY",
+    "Value": "25-39",
+    "Description": "prefers that everyone live as harmoniously as possible",
+    "Effects": "can learn Consoler (subject to STOICISM, subject to CRUELTY and SWAYED_BY_EMOTIONS) can learn Pacifier (subject to PEACE) can learn Intimidator (subject to HARMONY, POWER, and TRANQULITY, subject to ASSERTIVENESS)",
+    "Effects.1": null
+  },
+  {
+    "Token": "DISCORD\u2020 Conflicts with HARMONY",
+    "Value": "10-24",
+    "Description": "feels best when everyone gets along without any strife or contention",
+    "Effects": "cannot learn Intimidator can learn Consoler (subject to CRUELTY and SWAYED_BY_EMOTIONS) always learns Pacifier",
+    "Effects.1": null
+  },
+  {
+    "Token": "DISCORD\u2020 Conflicts with HARMONY",
+    "Value": "0-9",
+    "Description": "would be deeply satisfied if everyone could live as one in complete harmony",
+    "Effects": "cannot learn Intimidator can learn Consoler (subject to CRUELTY and SWAYED_BY_EMOTIONS) always learns Pacifier",
+    "Effects.1": null
+  },
+  {
+    "Token": "FRIENDLINESS\u2020 Conflicts with HARMONY and FRIENDSHIP",
+    "Value": "91-100",
+    "Description": "is quite a bold flatterer, extremely friendly but just a little insufferable",
+    "Effects": "always learns Flatterer",
+    "Effects.1": null
+  },
+  {
+    "Token": "FRIENDLINESS\u2020 Conflicts with HARMONY and FRIENDSHIP",
+    "Value": "76-90",
+    "Description": "is very friendly and always tries to say nice things to others",
+    "Effects": "always learns Flatterer",
+    "Effects.1": null
+  },
+  {
+    "Token": "FRIENDLINESS\u2020 Conflicts with HARMONY and FRIENDSHIP",
+    "Value": "61-75",
+    "Description": "is a friendly individual",
+    "Effects": "can learn Flatterer (subject to TRUTH)",
+    "Effects.1": null
+  },
+  {
+    "Token": "FRIENDLINESS\u2020 Conflicts with HARMONY and FRIENDSHIP",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": "can learn Flatterer (subject to TRUTH)",
+    "Effects.1": null
+  },
+  {
+    "Token": "FRIENDLINESS\u2020 Conflicts with HARMONY and FRIENDSHIP",
+    "Value": "25-39",
+    "Description": "is somewhat quarrelsome",
+    "Effects": "cannot learn Flatterer",
+    "Effects.1": null
+  },
+  {
+    "Token": "FRIENDLINESS\u2020 Conflicts with HARMONY and FRIENDSHIP",
+    "Value": "10-24",
+    "Description": "is unfriendly and disagreeable",
+    "Effects": "cannot learn Flatterer",
+    "Effects.1": null
+  },
+  {
+    "Token": "FRIENDLINESS\u2020 Conflicts with HARMONY and FRIENDSHIP",
+    "Value": "0-9",
+    "Description": "is a dyed-in-the-wool quarreler, never missing a chance to lash out in verbal hostility",
+    "Effects": "cannot learn Flatterer",
+    "Effects.1": null
+  },
+  {
+    "Token": "POLITENESS\u2020 Conflicts with DECORUM",
+    "Value": "91-100",
+    "Description": "exhibits a refined politeness and is determined to keep the guiding rules of etiquette and decorum as if life itself depended on it",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "POLITENESS\u2020 Conflicts with DECORUM",
+    "Value": "76-90",
+    "Description": "is very polite and observes appropriate rules of decorum when possible",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "POLITENESS\u2020 Conflicts with DECORUM",
+    "Value": "61-75",
+    "Description": "is quite polite",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "POLITENESS\u2020 Conflicts with DECORUM",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "POLITENESS\u2020 Conflicts with DECORUM",
+    "Value": "25-39",
+    "Description": "could be considered rude",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "POLITENESS\u2020 Conflicts with DECORUM",
+    "Value": "10-24",
+    "Description": "is very impolite and inconsiderate of propriety",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "POLITENESS\u2020 Conflicts with DECORUM",
+    "Value": "0-9",
+    "Description": "is a vulgar being who does not care a lick for even the most basic rules of civilized living",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DISDAIN_ADVICE",
+    "Value": "91-100",
+    "Description": "disdains even the best advice of associates and family, relying strictly on [his/her] own counsel",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DISDAIN_ADVICE",
+    "Value": "76-90",
+    "Description": "dislikes receiving advice, preferring to keep [his/her] own counsel",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DISDAIN_ADVICE",
+    "Value": "61-75",
+    "Description": "has a tendency to go it alone, without considering the advice of others",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DISDAIN_ADVICE",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DISDAIN_ADVICE",
+    "Value": "25-39",
+    "Description": "tends to ask others for help with difficult decisions",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DISDAIN_ADVICE",
+    "Value": "10-24",
+    "Description": "relies on the advice of others during decision making",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DISDAIN_ADVICE",
+    "Value": "0-9",
+    "Description": "is unable to make decisions without a great deal of input from others",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "BRAVERY",
+    "Value": "91-100",
+    "Description": "is utterly fearless when confronted with danger, to the point of lacking common sense",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "BRAVERY",
+    "Value": "76-90",
+    "Description": "is incredibly brave in the face of looming danger, perhaps a bit foolhardy",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "BRAVERY",
+    "Value": "61-75",
+    "Description": "is brave in the face of imminent danger",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "BRAVERY",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "BRAVERY",
+    "Value": "25-39",
+    "Description": "is somewhat fearful in the face of imminent danger",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "BRAVERY",
+    "Value": "10-24",
+    "Description": "has great trouble mastering fear when confronted by danger",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "BRAVERY",
+    "Value": "0-9",
+    "Description": "is a coward, completely overwhelmed by fear when confronted with danger",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CONFIDENCE",
+    "Value": "91-100",
+    "Description": "presupposes success in any venture requiring [his/her] skills with what could be called blind overconfidence",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CONFIDENCE",
+    "Value": "76-90",
+    "Description": "is extremely confident of [him/her]self in situations requiring [his/her] skills",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CONFIDENCE",
+    "Value": "61-75",
+    "Description": "is generally quite confident of [his/her] abilities when undertaking specific ventures",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CONFIDENCE",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CONFIDENCE",
+    "Value": "25-39",
+    "Description": "sometimes acts with little determination and confidence",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CONFIDENCE",
+    "Value": "10-24",
+    "Description": "lacks confidence in [his/her] abilities",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CONFIDENCE",
+    "Value": "0-9",
+    "Description": "has no confidence at all in [his/her] talent and abilities",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VANITY\u2020",
+    "Value": "91-100",
+    "Description": "is completely wrapped up in [his/her] own appearance, abilities and other personal matters",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VANITY\u2020",
+    "Value": "76-90",
+    "Description": "is greatly pleased by [his/her] own looks and accomplishments",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VANITY\u2020",
+    "Value": "61-75",
+    "Description": "is pleased by [his/her] own appearance and talents",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VANITY\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VANITY\u2020",
+    "Value": "25-39",
+    "Description": "is not inherently proud of [his/her] talents and accomplishments",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VANITY\u2020",
+    "Value": "10-24",
+    "Description": "takes no pleasure in [his/her] talents and appearance",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VANITY\u2020",
+    "Value": "0-9",
+    "Description": "could not care less about [his/her] appearance, talents or other personal vanities",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "AMBITION\u2020",
+    "Value": "91-100",
+    "Description": "has a relentless drive, completely consumed by ambition",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "AMBITION\u2020",
+    "Value": "76-90",
+    "Description": "is very ambitious, always looking for a way to better [his/her] situation",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "AMBITION\u2020",
+    "Value": "61-75",
+    "Description": "is quite ambitious",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "AMBITION\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "AMBITION\u2020",
+    "Value": "25-39",
+    "Description": "isn't particularly ambitious",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "AMBITION\u2020",
+    "Value": "10-24",
+    "Description": "is not driven and rarely feels the need to pursue even a modest success",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "AMBITION\u2020",
+    "Value": "0-9",
+    "Description": "has no ambition whatsoever",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GRATITUDE\u2020",
+    "Value": "91-100",
+    "Description": "unerringly returns favors and has a profound sense of gratitude for the kind actions of others",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GRATITUDE\u2020",
+    "Value": "76-90",
+    "Description": "feels a strong need to reciprocate any favor done for [him/her]",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GRATITUDE\u2020",
+    "Value": "61-75",
+    "Description": "is grateful when others help [him/her] out and tries to return favors",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GRATITUDE\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GRATITUDE\u2020",
+    "Value": "25-39",
+    "Description": "takes offered help and gifts without feeling particularly grateful",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GRATITUDE\u2020",
+    "Value": "10-24",
+    "Description": "accepts favors without developing a sense of obligation, preferring to act as the current situation demands",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GRATITUDE\u2020",
+    "Value": "0-9",
+    "Description": "does not feel the slightest need to reciprocate favors that others do for [him/her], no matter how major the help or how much [he/she] needed it",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODESTY\u2020",
+    "Value": "91-100",
+    "Description": "always presents [him/her]self as extravagantly as possible, displaying a magnificent image to the world",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODESTY\u2020",
+    "Value": "76-90",
+    "Description": "likes to present [him/her]self boldly, even if it would offend an average sense of modesty",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODESTY\u2020",
+    "Value": "61-75",
+    "Description": "doesn't mind wearing something special now and again",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODESTY\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODESTY\u2020",
+    "Value": "25-39",
+    "Description": "prefers to present [him/her]self modestly",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODESTY\u2020",
+    "Value": "10-24",
+    "Description": "presents [him/her]self modestly and frowns on any flashy accoutrements",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMMODESTY\u2020",
+    "Value": "0-9",
+    "Description": "cleaves to an austere lifestyle, disdaining even minor immodesties in appearance",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HUMOR\u2020",
+    "Value": "91-100",
+    "Description": "finds something humorous in everything, no matter how serious or inappropriate",
+    "Effects": "always learns Comedian",
+    "Effects.1": null
+  },
+  {
+    "Token": "HUMOR\u2020",
+    "Value": "76-90",
+    "Description": "finds the humor in most situations",
+    "Effects": "always learns Comedian",
+    "Effects.1": null
+  },
+  {
+    "Token": "HUMOR\u2020",
+    "Value": "61-75",
+    "Description": "has an active sense of humor",
+    "Effects": "can learn Comedian (subject to MERRIMENT)",
+    "Effects.1": null
+  },
+  {
+    "Token": "HUMOR\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": "can learn Comedian (subject to MERRIMENT)",
+    "Effects.1": null
+  },
+  {
+    "Token": "HUMOR\u2020",
+    "Value": "25-39",
+    "Description": "has little interest in joking around",
+    "Effects": "can learn Comedian (subject to MERRIMENT)",
+    "Effects.1": null
+  },
+  {
+    "Token": "HUMOR\u2020",
+    "Value": "10-24",
+    "Description": "does not find most jokes humorous",
+    "Effects": "cannot learn Comedian",
+    "Effects.1": null
+  },
+  {
+    "Token": "HUMOR\u2020",
+    "Value": "0-9",
+    "Description": "is utterly humorless",
+    "Effects": "cannot learn Comedian",
+    "Effects.1": null
+  },
+  {
+    "Token": "VENGEFUL\u2020",
+    "Value": "91-100",
+    "Description": "is vengeful and never forgets or forgives past grievances",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VENGEFUL\u2020",
+    "Value": "76-90",
+    "Description": "has little time for forgiveness and will generally seek retribution",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VENGEFUL\u2020",
+    "Value": "61-75",
+    "Description": "tends to hang on to grievances",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VENGEFUL\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VENGEFUL\u2020",
+    "Value": "25-39",
+    "Description": "doesn't tend to hold on to grievances",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VENGEFUL\u2020",
+    "Value": "10-24",
+    "Description": "does not generally seek retribution for past wrongs",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "VENGEFUL\u2020",
+    "Value": "0-9",
+    "Description": "has no sense of vengeance or retribution",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIDE",
+    "Value": "91-100",
+    "Description": "is absorbed in delusions of self-importance",
+    "Effects": "Arguments may trigger negative thought 'insulted after getting into an argument.' (subject to DISCORD) Teaching at a guildhall may trigger positive thought 'proud after teaching skill.'",
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIDE",
+    "Value": "76-90",
+    "Description": "has an overinflated sense of self-worth",
+    "Effects": "Arguments may trigger negative thought 'insulted after getting into an argument.' (subject to DISCORD) Teaching at a guildhall may trigger positive thought 'proud after teaching skill.'",
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIDE",
+    "Value": "61-75",
+    "Description": "thinks [he/she] is fairly important in the grand scheme of things",
+    "Effects": "Arguments may trigger negative thought 'insulted after getting into an argument.' (subject to DISCORD) Teaching at a guildhall may trigger positive thought 'proud after teaching skill.'",
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIDE",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIDE",
+    "Value": "25-39",
+    "Description": "is very humble",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIDE",
+    "Value": "10-24",
+    "Description": "has a low sense of self-esteem",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIDE",
+    "Value": "0-9",
+    "Description": "is completely convinced of [his/her] own worthlessness",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CRUELTY\u2020 Conflicts with POWER",
+    "Value": "91-100",
+    "Description": "is deliberately cruel to those unfortunate enough to be subject to [his/her] sadism",
+    "Effects": "cannot learn Consoler",
+    "Effects.1": null
+  },
+  {
+    "Token": "CRUELTY\u2020 Conflicts with POWER",
+    "Value": "76-90",
+    "Description": "is sometimes cruel",
+    "Effects": "cannot learn Consoler",
+    "Effects.1": null
+  },
+  {
+    "Token": "CRUELTY\u2020 Conflicts with POWER",
+    "Value": "61-75",
+    "Description": "generally acts impartially and is rarely moved to mercy",
+    "Effects": "can learn Consoler (subject to STOICISM, subject to DISCORD and SWAYED_BY_EMOTIONS)",
+    "Effects.1": null
+  },
+  {
+    "Token": "CRUELTY\u2020 Conflicts with POWER",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": "can learn Consoler (subject to STOICISM, subject to DISCORD and SWAYED_BY_EMOTIONS)",
+    "Effects.1": null
+  },
+  {
+    "Token": "CRUELTY\u2020 Conflicts with POWER",
+    "Value": "25-39",
+    "Description": "often acts with compassion",
+    "Effects": "can learn Consoler (subject to STOICISM, subject to DISCORD and SWAYED_BY_EMOTIONS)",
+    "Effects.1": null
+  },
+  {
+    "Token": "CRUELTY\u2020 Conflicts with POWER",
+    "Value": "10-24",
+    "Description": "is easily moved to mercy",
+    "Effects": "can learn Consoler (subject only to DISCORD and SWAYED_BY_EMOTIONS)",
+    "Effects.1": null
+  },
+  {
+    "Token": "CRUELTY\u2020 Conflicts with POWER",
+    "Value": "0-9",
+    "Description": "always acts with mercy and compassion at the forefront of [his/her] considerations",
+    "Effects": "can learn Consoler (subject only to DISCORD and SWAYED_BY_EMOTIONS)",
+    "Effects.1": null
+  },
+  {
+    "Token": "SINGLEMINDED",
+    "Value": "91-100",
+    "Description": "pursues matters with a single-minded focus, often overlooking other matters",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "SINGLEMINDED",
+    "Value": "76-90",
+    "Description": "can be very single-minded",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "SINGLEMINDED",
+    "Value": "61-75",
+    "Description": "generally acts with a narrow focus on the current activity",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "SINGLEMINDED",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "SINGLEMINDED",
+    "Value": "25-39",
+    "Description": "can occasionally lose focus on the matter at hand",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "SINGLEMINDED",
+    "Value": "10-24",
+    "Description": "is somewhat scatterbrained",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "SINGLEMINDED",
+    "Value": "0-9",
+    "Description": "is a complete scatterbrain, unable to focus on a single matter for more than a passing moment",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HOPEFUL\u2020",
+    "Value": "91-100",
+    "Description": "has such a developed sense of optimism that [he/she] always assumes the best outcome will eventually occur, no matter what",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HOPEFUL\u2020",
+    "Value": "76-90",
+    "Description": "is an optimist",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HOPEFUL\u2020",
+    "Value": "61-75",
+    "Description": "generally finds [him/her]self quite hopeful about the future",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HOPEFUL\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HOPEFUL\u2020",
+    "Value": "25-39",
+    "Description": "tends to assume the worst of two outcomes will be the one that comes to pass",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HOPEFUL\u2020",
+    "Value": "10-24",
+    "Description": "is a pessimist",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "HOPEFUL\u2020",
+    "Value": "0-9",
+    "Description": "despairs of anything positive happening in the future and lives without feelings of hope",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CURIOUS\u2020",
+    "Value": "91-100",
+    "Description": "is implacably curious, without any respect for propriety or privacy",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CURIOUS\u2020",
+    "Value": "76-90",
+    "Description": "is very curious, sometimes to [his/her] detriment",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CURIOUS\u2020",
+    "Value": "61-75",
+    "Description": "is curious and eager to learn",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CURIOUS\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CURIOUS\u2020",
+    "Value": "25-39",
+    "Description": "isn't particularly curious about the world",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CURIOUS\u2020",
+    "Value": "10-24",
+    "Description": "is very rarely moved by curiosity",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CURIOUS\u2020",
+    "Value": "0-9",
+    "Description": "is incurious and never seeks out knowledge or information to satisfy [him/her]self",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "BASHFUL",
+    "Value": "91-100",
+    "Description": "is gripped by a crippling shyness",
+    "Effects": "cannot learn Conversationalist",
+    "Effects.1": null
+  },
+  {
+    "Token": "BASHFUL",
+    "Value": "76-90",
+    "Description": "is bashful",
+    "Effects": "cannot learn Conversationalist",
+    "Effects.1": null
+  },
+  {
+    "Token": "BASHFUL",
+    "Value": "61-75",
+    "Description": "tends to consider what others think of [him/her]",
+    "Effects": "can learn Conversationalist (subject to beliefs, subject to GREGARIOUSNESS)",
+    "Effects.1": null
+  },
+  {
+    "Token": "BASHFUL",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": "can learn Conversationalist (subject to beliefs, subject to GREGARIOUSNESS)",
+    "Effects.1": null
+  },
+  {
+    "Token": "BASHFUL",
+    "Value": "25-39",
+    "Description": "is not particularly interested in what others think of [him/her]",
+    "Effects": "can learn Conversationalist (subject to beliefs, subject to GREGARIOUSNESS)",
+    "Effects.1": null
+  },
+  {
+    "Token": "BASHFUL",
+    "Value": "10-24",
+    "Description": "is generally unhindered by the thoughts of others concerning [his/her] actions",
+    "Effects": "can learn Conversationalist (subject only to GREGARIOUSNESS)",
+    "Effects.1": null
+  },
+  {
+    "Token": "BASHFUL",
+    "Value": "0-9",
+    "Description": "is shameless, absolutely unfazed by the thoughts of others",
+    "Effects": "can learn Conversationalist (subject only to GREGARIOUSNESS)",
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIVACY Conflicts with STOICISM",
+    "Value": "91-100",
+    "Description": "is private to the point of paranoia, unwilling to reveal even basic information about [him/her]self",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIVACY Conflicts with STOICISM",
+    "Value": "76-90",
+    "Description": "has a strong tendency toward privacy",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIVACY Conflicts with STOICISM",
+    "Value": "61-75",
+    "Description": "tends not to reveal personal information",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIVACY Conflicts with STOICISM",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIVACY Conflicts with STOICISM",
+    "Value": "25-39",
+    "Description": "tends to share [his/her] own experiences and thoughts with others",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIVACY Conflicts with STOICISM",
+    "Value": "10-24",
+    "Description": "is not a private person and freely shares details of [his/her] life",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PRIVACY Conflicts with STOICISM",
+    "Value": "0-9",
+    "Description": "shares intimate details of life without sparing a thought to repercussions or propriety",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERFECTIONIST\u2020",
+    "Value": "91-100",
+    "Description": "is obsessed with details and will often take a great deal of extra time to make sure things are done the right way",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERFECTIONIST\u2020",
+    "Value": "76-90",
+    "Description": "is a perfectionist",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERFECTIONIST\u2020",
+    "Value": "61-75",
+    "Description": "tries to do things correctly each time",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERFECTIONIST\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERFECTIONIST\u2020",
+    "Value": "25-39",
+    "Description": "doesn't try to get things done perfectly",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERFECTIONIST\u2020",
+    "Value": "10-24",
+    "Description": "is inattentive to detail in [his/her] own work",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "PERFECTIONIST\u2020",
+    "Value": "0-9",
+    "Description": "is frustratingly sloppy and careless with every task [he/she] sets to carry out",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CLOSEMINDED",
+    "Value": "91-100",
+    "Description": "is completely closed-minded and never changes [his/her] mind after forming an initial idea",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CLOSEMINDED",
+    "Value": "76-90",
+    "Description": "is intellectually stubborn, rarely changing [his/her] mind during a debate regardless of the merits",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CLOSEMINDED",
+    "Value": "61-75",
+    "Description": "tends to be a bit stubborn in changing [his/her] mind about things",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CLOSEMINDED",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CLOSEMINDED",
+    "Value": "25-39",
+    "Description": "doesn't cling tightly to ideas and is open to changing [his/her] mind",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CLOSEMINDED",
+    "Value": "10-24",
+    "Description": "often finds [him/her]self changing [his/her] mind to agree with somebody else",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "CLOSEMINDED",
+    "Value": "0-9",
+    "Description": "easily changes [his/her] mind and will generally go with the prevailing view on anything",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TOLERANT\u2020",
+    "Value": "91-100",
+    "Description": "is not bothered in the slightest by deviations from the norm or even extreme differences in lifestyle or appearance",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TOLERANT\u2020",
+    "Value": "76-90",
+    "Description": "is very comfortable around others that are different from [him/her]",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TOLERANT\u2020",
+    "Value": "61-75",
+    "Description": "is quite comfortable with others that have a different appearance or culture",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TOLERANT\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TOLERANT\u2020",
+    "Value": "25-39",
+    "Description": "is somewhat uncomfortable around those that appear unusual or live differently from [him/her]",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TOLERANT\u2020",
+    "Value": "10-24",
+    "Description": "is made deeply uncomfortable by differences in culture or appearance",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TOLERANT\u2020",
+    "Value": "0-9",
+    "Description": "cannot tolerate differences in culture, lifestyle or appearance",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EMOTIONALLY_OBSESSIVE",
+    "Value": "91-100",
+    "Description": "is emotionally obsessive, forming life-long attachments even if they aren't reciprocated",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EMOTIONALLY_OBSESSIVE",
+    "Value": "76-90",
+    "Description": "forms strong emotional bonds with others, at times to [his/her] detriment",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EMOTIONALLY_OBSESSIVE",
+    "Value": "61-75",
+    "Description": "has a tendency toward forming deep emotional bonds with others",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EMOTIONALLY_OBSESSIVE",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EMOTIONALLY_OBSESSIVE",
+    "Value": "25-39",
+    "Description": "tends to form only tenuous emotional bonds with others",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EMOTIONALLY_OBSESSIVE",
+    "Value": "10-24",
+    "Description": "forms only fleeting and rare emotional bonds with others",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EMOTIONALLY_OBSESSIVE",
+    "Value": "0-9",
+    "Description": "does not have feelings of emotional attachment and has never felt even a moment's connection with another being",
+    "Effects": "Does not feel anything when seeing creatures die. Still experiences trauma or fear based on other personality traits.",
+    "Effects.1": null
+  },
+  {
+    "Token": "SWAYED_BY_EMOTIONS",
+    "Value": "91-100",
+    "Description": "is buffeted by others' emotions and can't help but to respond to them",
+    "Effects": "can learn Consoler (subject only to CRUELTY and DISCORD)",
+    "Effects.1": null
+  },
+  {
+    "Token": "SWAYED_BY_EMOTIONS",
+    "Value": "76-90",
+    "Description": "is swayed by emotional appeals",
+    "Effects": "can learn Consoler (subject only to CRUELTY and DISCORD)",
+    "Effects.1": null
+  },
+  {
+    "Token": "SWAYED_BY_EMOTIONS",
+    "Value": "61-75",
+    "Description": "tends to be swayed by the emotions of others",
+    "Effects": "can learn Consoler (subject to STOICISM, subject to CRUELTY and DISCORD)",
+    "Effects.1": null
+  },
+  {
+    "Token": "SWAYED_BY_EMOTIONS",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": "can learn Consoler (subject to STOICISM, subject to CRUELTY and DISCORD)",
+    "Effects.1": null
+  },
+  {
+    "Token": "SWAYED_BY_EMOTIONS",
+    "Value": "25-39",
+    "Description": "tends not to be swayed by emotional appeals",
+    "Effects": "can learn Consoler (subject to STOICISM, subject to CRUELTY and DISCORD)",
+    "Effects.1": null
+  },
+  {
+    "Token": "SWAYED_BY_EMOTIONS",
+    "Value": "10-24",
+    "Description": "does not generally respond to emotional appeals",
+    "Effects": "cannot learn Consoler",
+    "Effects.1": null
+  },
+  {
+    "Token": "SWAYED_BY_EMOTIONS",
+    "Value": "0-9",
+    "Description": "is never moved by the emotions of others",
+    "Effects": "cannot learn Consoler",
+    "Effects.1": null
+  },
+  {
+    "Token": "ALTRUISM\u2020 Conflicts with SACRIFICE",
+    "Value": "91-100",
+    "Description": "is truly fulfilled by assisting those in need",
+    "Effects": "Receives happy thought from recovering wounded.",
+    "Effects.1": null
+  },
+  {
+    "Token": "ALTRUISM\u2020 Conflicts with SACRIFICE",
+    "Value": "76-90",
+    "Description": "finds helping others very emotionally rewarding",
+    "Effects": "Receives happy thought from recovering wounded.",
+    "Effects.1": null
+  },
+  {
+    "Token": "ALTRUISM\u2020 Conflicts with SACRIFICE",
+    "Value": "61-75",
+    "Description": "finds helping others emotionally rewarding",
+    "Effects": "Receives happy thought from recovering wounded.",
+    "Effects.1": null
+  },
+  {
+    "Token": "ALTRUISM\u2020 Conflicts with SACRIFICE",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ALTRUISM\u2020 Conflicts with SACRIFICE",
+    "Value": "25-39",
+    "Description": "does not go out of [his/her] way to help others",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ALTRUISM\u2020 Conflicts with SACRIFICE",
+    "Value": "10-24",
+    "Description": "dislikes helping others",
+    "Effects": "Receives unhappy thought from recovering wounded.",
+    "Effects.1": null
+  },
+  {
+    "Token": "ALTRUISM\u2020 Conflicts with SACRIFICE",
+    "Value": "0-9",
+    "Description": "feels helping others is an imposition on [his/her] time",
+    "Effects": "Receives unhappy thought from recovering wounded.",
+    "Effects.1": null
+  },
+  {
+    "Token": "DUTIFULNESS\u2020 Conflicts with LAW, LOYALTY, and INDEPENDENCE",
+    "Value": "91-100",
+    "Description": "has a profound sense of duty and obligation",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DUTIFULNESS\u2020 Conflicts with LAW, LOYALTY, and INDEPENDENCE",
+    "Value": "76-90",
+    "Description": "has a strong sense of duty",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DUTIFULNESS\u2020 Conflicts with LAW, LOYALTY, and INDEPENDENCE",
+    "Value": "61-75",
+    "Description": "has a sense of duty",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DUTIFULNESS\u2020 Conflicts with LAW, LOYALTY, and INDEPENDENCE",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DUTIFULNESS\u2020 Conflicts with LAW, LOYALTY, and INDEPENDENCE",
+    "Value": "25-39",
+    "Description": "finds obligations confining",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DUTIFULNESS\u2020 Conflicts with LAW, LOYALTY, and INDEPENDENCE",
+    "Value": "10-24",
+    "Description": "dislikes obligations and will try to avoid being bound by them",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "DUTIFULNESS\u2020 Conflicts with LAW, LOYALTY, and INDEPENDENCE",
+    "Value": "0-9",
+    "Description": "hates vows, obligations, promises and other binding elements that could restrict [him/her]",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "THOUGHTLESSNESS\u2020",
+    "Value": "91-100",
+    "Description": "never deliberates before acting, to the point of being considered thoughtless",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "THOUGHTLESSNESS\u2020",
+    "Value": "76-90",
+    "Description": "doesn't generally think before acting",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "THOUGHTLESSNESS\u2020",
+    "Value": "61-75",
+    "Description": "can sometimes act without deliberation",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "THOUGHTLESSNESS\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "THOUGHTLESSNESS\u2020",
+    "Value": "25-39",
+    "Description": "tends to think before acting",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "THOUGHTLESSNESS\u2020",
+    "Value": "10-24",
+    "Description": "can get caught up in internal deliberations when action is necessary",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "THOUGHTLESSNESS\u2020",
+    "Value": "0-9",
+    "Description": "never acts without prolonged deliberation, even to [his/her] own detriment and the harm of those around [him/her]",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ORDERLINESS\u2020",
+    "Value": "91-100",
+    "Description": "is obsessed with order and structure in [his/her] own life, with everything kept in its proper place",
+    "Effects": "Will store clothes after changing clothes.",
+    "Effects.1": null
+  },
+  {
+    "Token": "ORDERLINESS\u2020",
+    "Value": "76-90",
+    "Description": "lives an orderly life, organized and neat",
+    "Effects": "Will store clothes after changing clothes.",
+    "Effects.1": null
+  },
+  {
+    "Token": "ORDERLINESS\u2020",
+    "Value": "61-75",
+    "Description": "tries to keep [his/her] things orderly",
+    "Effects": "Will store clothes after changing clothes.",
+    "Effects.1": null
+  },
+  {
+    "Token": "ORDERLINESS\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ORDERLINESS\u2020",
+    "Value": "25-39",
+    "Description": "tends to make a small mess with [his/her] own possessions",
+    "Effects": "Will leave scattered clothes after changing clothes.",
+    "Effects.1": null
+  },
+  {
+    "Token": "ORDERLINESS\u2020",
+    "Value": "10-24",
+    "Description": "is sloppy with [his/her] living space",
+    "Effects": "Will leave scattered clothes after changing clothes.",
+    "Effects.1": null
+  },
+  {
+    "Token": "ORDERLINESS\u2020",
+    "Value": "0-9",
+    "Description": "is completely oblivious to any conception of neatness and will just leave things strewn about without a care",
+    "Effects": "Will leave scattered clothes after changing clothes.",
+    "Effects.1": null
+  },
+  {
+    "Token": "TRUST",
+    "Value": "91-100",
+    "Description": "is naturally trustful of everybody",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TRUST",
+    "Value": "76-90",
+    "Description": "is very trusting",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TRUST",
+    "Value": "61-75",
+    "Description": "is trusting",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TRUST",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TRUST",
+    "Value": "25-39",
+    "Description": "is slow to trust others",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TRUST",
+    "Value": "10-24",
+    "Description": "does not trust others",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "TRUST",
+    "Value": "0-9",
+    "Description": "sees others as selfish and conniving",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "GREGARIOUSNESS",
+    "Value": "91-100",
+    "Description": "truly treasures the company of others",
+    "Effects": "can learn Conversationalist (subject only to BASHFUL)",
+    "Effects.1": null
+  },
+  {
+    "Token": "GREGARIOUSNESS",
+    "Value": "76-90",
+    "Description": "enjoys being in crowds",
+    "Effects": "can learn Conversationalist (subject only to BASHFUL)",
+    "Effects.1": null
+  },
+  {
+    "Token": "GREGARIOUSNESS",
+    "Value": "61-75",
+    "Description": "enjoys the company of others",
+    "Effects": "can learn Conversationalist (subject to beliefs, subject to BASHFUL)",
+    "Effects.1": null
+  },
+  {
+    "Token": "GREGARIOUSNESS",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": "can learn Conversationalist (subject to beliefs, subject to BASHFUL)",
+    "Effects.1": null
+  },
+  {
+    "Token": "GREGARIOUSNESS",
+    "Value": "25-39",
+    "Description": "tends to avoid crowds",
+    "Effects": "can learn Conversationalist (subject to beliefs, subject to BASHFUL)",
+    "Effects.1": null
+  },
+  {
+    "Token": "GREGARIOUSNESS",
+    "Value": "10-24",
+    "Description": "prefers to be alone",
+    "Effects": "cannot learn Conversationalist",
+    "Effects.1": null
+  },
+  {
+    "Token": "GREGARIOUSNESS",
+    "Value": "0-9",
+    "Description": "considers spending time alone much more important than associating with others",
+    "Effects": "cannot learn Conversationalist",
+    "Effects.1": null
+  },
+  {
+    "Token": "ASSERTIVENESS",
+    "Value": "91-100",
+    "Description": "is assertive to the point of aggression, unwilling to let others get a word in edgewise when [he/she] has something to say",
+    "Effects": "can learn Intimidator (subject to DISCORD) always learns Persuader",
+    "Effects.1": null
+  },
+  {
+    "Token": "ASSERTIVENESS",
+    "Value": "76-90",
+    "Description": "has an overbearing personality",
+    "Effects": "can learn Intimidator (subject to DISCORD) always learns Persuader",
+    "Effects.1": null
+  },
+  {
+    "Token": "ASSERTIVENESS",
+    "Value": "61-75",
+    "Description": "is assertive",
+    "Effects": "can learn Intimidator (subject to HARMONY, POWER, and TRANQULITY, subject to DISCORD) can learn Persuader (subject to ELOQUENCE)",
+    "Effects.1": null
+  },
+  {
+    "Token": "ASSERTIVENESS",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": "can learn Intimidator (subject to HARMONY, POWER, and TRANQULITY, subject to DISCORD) can learn Persuader (subject to ELOQUENCE)",
+    "Effects.1": null
+  },
+  {
+    "Token": "ASSERTIVENESS",
+    "Value": "25-39",
+    "Description": "tends to be passive in discussions",
+    "Effects": "can learn Intimidator (subject to HARMONY, POWER, and TRANQULITY, subject to DISCORD) can learn Persuader (subject to ELOQUENCE)",
+    "Effects.1": null
+  },
+  {
+    "Token": "ASSERTIVENESS",
+    "Value": "10-24",
+    "Description": "only rarely tries to assert [him/her]self in conversation",
+    "Effects": "never learns Intimidator or Persuader",
+    "Effects.1": null
+  },
+  {
+    "Token": "ASSERTIVENESS",
+    "Value": "0-9",
+    "Description": "would never under any circumstances speak up or otherwise put forth [his/her] point of view in a discussion",
+    "Effects": "never learns Intimidator or Persuader",
+    "Effects.1": null
+  },
+  {
+    "Token": "ACTIVITY_LEVEL",
+    "Value": "91-100",
+    "Description": "is driven by a bouncing frenetic energy",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ACTIVITY_LEVEL",
+    "Value": "76-90",
+    "Description": "lives at a high-energy kinetic pace",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ACTIVITY_LEVEL",
+    "Value": "61-75",
+    "Description": "lives a fast-paced life",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ACTIVITY_LEVEL",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ACTIVITY_LEVEL",
+    "Value": "25-39",
+    "Description": "likes to take it easy",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ACTIVITY_LEVEL",
+    "Value": "10-24",
+    "Description": "lives at a slow-going and leisurely pace",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ACTIVITY_LEVEL",
+    "Value": "0-9",
+    "Description": "has an utterly languid pace of easy living, calm and slow",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EXCITEMENT_SEEKING\u2020 Conflicts with TRANQUILITY",
+    "Value": "91-100",
+    "Description": "never fails to seek out the most stressful and even dangerous situations",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EXCITEMENT_SEEKING\u2020 Conflicts with TRANQUILITY",
+    "Value": "76-90",
+    "Description": "seeks out exciting and adventurous situations",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EXCITEMENT_SEEKING\u2020 Conflicts with TRANQUILITY",
+    "Value": "61-75",
+    "Description": "likes a little excitement now and then",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EXCITEMENT_SEEKING\u2020 Conflicts with TRANQUILITY",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EXCITEMENT_SEEKING\u2020 Conflicts with TRANQUILITY",
+    "Value": "25-39",
+    "Description": "doesn't seek out excitement",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EXCITEMENT_SEEKING\u2020 Conflicts with TRANQUILITY",
+    "Value": "10-24",
+    "Description": "actively avoids exciting or stressful situations",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "EXCITEMENT_SEEKING\u2020 Conflicts with TRANQUILITY",
+    "Value": "0-9",
+    "Description": "does everything in [his/her] power to avoid excitement and stress",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMAGINATION\u2020",
+    "Value": "91-100",
+    "Description": "is bored by reality and would rather disappear utterly and forever into a world of made-up fantasy",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMAGINATION\u2020",
+    "Value": "76-90",
+    "Description": "is given to flights of fancy to the point of distraction",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMAGINATION\u2020",
+    "Value": "61-75",
+    "Description": "has an active imagination",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMAGINATION\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMAGINATION\u2020",
+    "Value": "25-39",
+    "Description": "isn't given to flights of fancy",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMAGINATION\u2020",
+    "Value": "10-24",
+    "Description": "is grounded in reality",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "IMAGINATION\u2020",
+    "Value": "0-9",
+    "Description": "is interested only in facts and the real world",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ABSTRACT_INCLINED\u2020",
+    "Value": "91-100",
+    "Description": "eschews practical concerns for philosophical discussion, puzzles, riddles and the world of ideas",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ABSTRACT_INCLINED\u2020",
+    "Value": "76-90",
+    "Description": "strongly prefers discussions of ideas and abstract concepts over handling specific practical issues",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ABSTRACT_INCLINED\u2020",
+    "Value": "61-75",
+    "Description": "has a tendency to consider ideas and abstractions over practical applications",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ABSTRACT_INCLINED\u2020",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ABSTRACT_INCLINED\u2020",
+    "Value": "25-39",
+    "Description": "likes to keep things practical, without delving too deeply into the abstract",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ABSTRACT_INCLINED\u2020",
+    "Value": "10-24",
+    "Description": "dislikes abstract discussions and would much rather focus on practical examples",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ABSTRACT_INCLINED\u2020",
+    "Value": "0-9",
+    "Description": "is concerned only with matters practical to the situation at hand, with absolutely no inclination toward abstract discussion",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ART_INCLINED\u2020 Conflicts with ARTWORK and NATURE",
+    "Value": "91-100",
+    "Description": "can easily become absorbed in art and the beauty of the natural world",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ART_INCLINED\u2020 Conflicts with ARTWORK and NATURE",
+    "Value": "76-90",
+    "Description": "greatly moved by art and natural beauty",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ART_INCLINED\u2020 Conflicts with ARTWORK and NATURE",
+    "Value": "61-75",
+    "Description": "is moved by art and natural beauty",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ART_INCLINED\u2020 Conflicts with ARTWORK and NATURE",
+    "Value": "40-60",
+    "Description": "(no description)",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ART_INCLINED\u2020 Conflicts with ARTWORK and NATURE",
+    "Value": "25-39",
+    "Description": "does not have a great aesthetic sensitivity",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ART_INCLINED\u2020 Conflicts with ARTWORK and NATURE",
+    "Value": "10-24",
+    "Description": "is not readily moved by art or natural beauty",
+    "Effects": null,
+    "Effects.1": null
+  },
+  {
+    "Token": "ART_INCLINED\u2020 Conflicts with ARTWORK and NATURE",
+    "Value": "0-9",
+    "Description": "is completely unmoved by art or the beauty of nature",
+    "Effects": null,
+    "Effects.1": null
+  }
+]

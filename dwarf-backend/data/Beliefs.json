@@ -1,0 +1,1388 @@
+[
+  {
+    "Topic": "LAW",
+    "Value": "+41 to +50",
+    "Description": "is an absolute believer in the rule of law",
+    "Effects": null
+  },
+  {
+    "Topic": "LAW",
+    "Value": "+26 to +40",
+    "Description": "has a great deal of respect for the law",
+    "Effects": null
+  },
+  {
+    "Topic": "LAW",
+    "Value": "+11 to +25",
+    "Description": "respects the law",
+    "Effects": null
+  },
+  {
+    "Topic": "LAW",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't feel strongly about the law",
+    "Effects": null
+  },
+  {
+    "Topic": "LAW",
+    "Value": "\u221225 to \u221211",
+    "Description": "does not respect the law",
+    "Effects": null
+  },
+  {
+    "Topic": "LAW",
+    "Value": "\u221240 to \u221226",
+    "Description": "disdains the law",
+    "Effects": null
+  },
+  {
+    "Topic": "LAW",
+    "Value": "\u221250 to \u221241",
+    "Description": "finds the idea of laws abhorrent",
+    "Effects": null
+  },
+  {
+    "Topic": "LOYALTY",
+    "Value": "+41 to +50",
+    "Description": "has the highest regard for loyalty",
+    "Effects": null
+  },
+  {
+    "Topic": "LOYALTY",
+    "Value": "+26 to +40",
+    "Description": "greatly prizes loyalty",
+    "Effects": null
+  },
+  {
+    "Topic": "LOYALTY",
+    "Value": "+11 to +25",
+    "Description": "values loyalty",
+    "Effects": null
+  },
+  {
+    "Topic": "LOYALTY",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't particularly value loyalty",
+    "Effects": null
+  },
+  {
+    "Topic": "LOYALTY",
+    "Value": "\u221225 to \u221211",
+    "Description": "views loyalty unfavorably",
+    "Effects": null
+  },
+  {
+    "Topic": "LOYALTY",
+    "Value": "\u221240 to \u221226",
+    "Description": "disdains loyalty",
+    "Effects": null
+  },
+  {
+    "Topic": "LOYALTY",
+    "Value": "\u221250 to \u221241",
+    "Description": "is disgusted by the idea of loyalty",
+    "Effects": null
+  },
+  {
+    "Topic": "FAMILY",
+    "Value": "+41 to +50",
+    "Description": "sees family as one of the most important things in life",
+    "Effects": null
+  },
+  {
+    "Topic": "FAMILY",
+    "Value": "+26 to +40",
+    "Description": "values family greatly",
+    "Effects": null
+  },
+  {
+    "Topic": "FAMILY",
+    "Value": "+11 to +25",
+    "Description": "values family",
+    "Effects": null
+  },
+  {
+    "Topic": "FAMILY",
+    "Value": "\u221210 to +10",
+    "Description": "does not care about family one way or the other",
+    "Effects": null
+  },
+  {
+    "Topic": "FAMILY",
+    "Value": "\u221225 to \u221211",
+    "Description": "is put off by family",
+    "Effects": null
+  },
+  {
+    "Topic": "FAMILY",
+    "Value": "\u221240 to \u221226",
+    "Description": "lacks any respect for family",
+    "Effects": null
+  },
+  {
+    "Topic": "FAMILY",
+    "Value": "\u221250 to \u221241",
+    "Description": "finds the idea of family loathsome",
+    "Effects": null
+  },
+  {
+    "Topic": "FRIENDSHIP",
+    "Value": "+41 to +50",
+    "Description": "believes friendship is a key to the ideal life",
+    "Effects": "maybe can learn Conversationalist? (maybe subject to LEISURE_TIME?, subject to GREGARIOUSNESS and BASHFUL)"
+  },
+  {
+    "Topic": "FRIENDSHIP",
+    "Value": "+26 to +40",
+    "Description": "sees friendship as one of the finer things in life",
+    "Effects": "maybe can learn Conversationalist? (maybe subject to LEISURE_TIME?, subject to GREGARIOUSNESS and BASHFUL)"
+  },
+  {
+    "Topic": "FRIENDSHIP",
+    "Value": "+11 to +25",
+    "Description": "thinks friendship is important",
+    "Effects": "maybe can learn Conversationalist? (maybe subject to LEISURE_TIME?, subject to GREGARIOUSNESS and BASHFUL)"
+  },
+  {
+    "Topic": "FRIENDSHIP",
+    "Value": "\u221210 to +10",
+    "Description": "does not care about friendship",
+    "Effects": "maybe can learn Conversationalist? (maybe subject to LEISURE_TIME?, subject to GREGARIOUSNESS and BASHFUL)"
+  },
+  {
+    "Topic": "FRIENDSHIP",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds friendship burdensome",
+    "Effects": "maybe can learn Conversationalist? (maybe subject to LEISURE_TIME?, subject to GREGARIOUSNESS and BASHFUL)"
+  },
+  {
+    "Topic": "FRIENDSHIP",
+    "Value": "\u221240 to \u221226",
+    "Description": "is completely put off by the idea of friends",
+    "Effects": "maybe cannot learn Conversationalist? (unless overridden by extreme GREGARIOUSNESS or BASHFUL)"
+  },
+  {
+    "Topic": "FRIENDSHIP",
+    "Value": "\u221250 to \u221241",
+    "Description": "finds the whole idea of friendship disgusting",
+    "Effects": "maybe cannot learn Conversationalist? (unless overridden by extreme GREGARIOUSNESS or BASHFUL)"
+  },
+  {
+    "Topic": "POWER",
+    "Value": "+41 to +50",
+    "Description": "believes that the acquisition of power over others is the ideal goal in life and worthy of the highest respect",
+    "Effects": "can learn Intimidator (subject to HARMONY and TRANQUILITY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "POWER",
+    "Value": "+26 to +40",
+    "Description": "sees power over others as something to strive for",
+    "Effects": "can learn Intimidator (subject to HARMONY and TRANQUILITY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "POWER",
+    "Value": "+11 to +25",
+    "Description": "respects power",
+    "Effects": "can learn Intimidator (subject to HARMONY and TRANQUILITY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "POWER",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't find power particularly praiseworthy",
+    "Effects": "can learn Intimidator (subject to HARMONY and TRANQUILITY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "POWER",
+    "Value": "\u221225 to \u221211",
+    "Description": "has a negative view of those who exercise power over others",
+    "Effects": "can learn Intimidator (subject to HARMONY and TRANQUILITY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "POWER",
+    "Value": "\u221240 to \u221226",
+    "Description": "hates those who wield power over others",
+    "Effects": "cannot learn Intimidator (unless overridden by extreme ASSERTIVENESS or DISCORD)"
+  },
+  {
+    "Topic": "POWER",
+    "Value": "\u221250 to \u221241",
+    "Description": "finds the acquisition and use of power abhorrent and would have all masters toppled",
+    "Effects": "cannot learn Intimidator (unless overridden by extreme ASSERTIVENESS or DISCORD)"
+  },
+  {
+    "Topic": "TRUTH",
+    "Value": "+41 to +50",
+    "Description": "believes the truth is inviolable regardless of the cost",
+    "Effects": "cannot learn Flatterer (unless overridden by extreme FRIENDLINESS) cannot learn Liar"
+  },
+  {
+    "Topic": "TRUTH",
+    "Value": "+26 to +40",
+    "Description": "believes that honesty is a high ideal",
+    "Effects": "cannot learn Flatterer (unless overridden by extreme FRIENDLINESS) cannot learn Liar"
+  },
+  {
+    "Topic": "TRUTH",
+    "Value": "+11 to +25",
+    "Description": "values honesty",
+    "Effects": "can learn Flatterer (subject to FRIENDLINESS) cannot learn Liar"
+  },
+  {
+    "Topic": "TRUTH",
+    "Value": "\u221210 to +10",
+    "Description": "does not particularly value the truth",
+    "Effects": "can learn Flatterer (subject to FRIENDLINESS) can learn Liar"
+  },
+  {
+    "Topic": "TRUTH",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds blind honesty foolish",
+    "Effects": "can learn Flatterer (subject to FRIENDLINESS) can learn Liar"
+  },
+  {
+    "Topic": "TRUTH",
+    "Value": "\u221240 to \u221226",
+    "Description": "sees lying as an important means to an end",
+    "Effects": "can learn Flatterer (subject to FRIENDLINESS) can learn Liar"
+  },
+  {
+    "Topic": "TRUTH",
+    "Value": "\u221250 to \u221241",
+    "Description": "is repelled by the idea of honesty and lies without compunction",
+    "Effects": "can learn Flatterer (subject to FRIENDLINESS) can learn Liar"
+  },
+  {
+    "Topic": "CUNNING",
+    "Value": "+41 to +50",
+    "Description": "holds well-laid plans and shrewd deceptions in the highest regard",
+    "Effects": null
+  },
+  {
+    "Topic": "CUNNING",
+    "Value": "+26 to +40",
+    "Description": "greatly respects the shrewd and guileful",
+    "Effects": null
+  },
+  {
+    "Topic": "CUNNING",
+    "Value": "+11 to +25",
+    "Description": "values cunning",
+    "Effects": null
+  },
+  {
+    "Topic": "CUNNING",
+    "Value": "\u221210 to +10",
+    "Description": "does not really value cunning and guile",
+    "Effects": null
+  },
+  {
+    "Topic": "CUNNING",
+    "Value": "\u221225 to \u221211",
+    "Description": "sees guile and cunning as indirect and somewhat worthless",
+    "Effects": null
+  },
+  {
+    "Topic": "CUNNING",
+    "Value": "\u221240 to \u221226",
+    "Description": "holds shrewd and crafty individuals in the lowest esteem",
+    "Effects": null
+  },
+  {
+    "Topic": "CUNNING",
+    "Value": "\u221250 to \u221241",
+    "Description": "is utterly disgusted by guile and cunning",
+    "Effects": null
+  },
+  {
+    "Topic": "ELOQUENCE",
+    "Value": "+41 to +50",
+    "Description": "believes that artful speech and eloquent expression are some of the highest ideals",
+    "Effects": "can learn Persuader (subject to ASSERTIVENESS)"
+  },
+  {
+    "Topic": "ELOQUENCE",
+    "Value": "+26 to +40",
+    "Description": "deeply respects eloquent speakers",
+    "Effects": "can learn Persuader (subject to ASSERTIVENESS)"
+  },
+  {
+    "Topic": "ELOQUENCE",
+    "Value": "+11 to +25",
+    "Description": "values eloquence",
+    "Effects": "can learn Persuader (subject to ASSERTIVENESS)"
+  },
+  {
+    "Topic": "ELOQUENCE",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't value eloquence so much",
+    "Effects": "can learn Persuader (subject to ASSERTIVENESS)"
+  },
+  {
+    "Topic": "ELOQUENCE",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds eloquence and artful speech off-putting",
+    "Effects": "can learn Persuader (subject to ASSERTIVENESS)"
+  },
+  {
+    "Topic": "ELOQUENCE",
+    "Value": "\u221240 to \u221226",
+    "Description": "finds [him/her]self somewhat disgusted with eloquent speakers",
+    "Effects": "cannot learn Persuader (unless overridden by extreme ASSERTIVENESS)"
+  },
+  {
+    "Topic": "ELOQUENCE",
+    "Value": "\u221250 to \u221241",
+    "Description": "sees artful speech and eloquence as a wasteful form of deliberate deception and treats it as such",
+    "Effects": "cannot learn Persuader (unless overridden by extreme ASSERTIVENESS)"
+  },
+  {
+    "Topic": "FAIRNESS",
+    "Value": "+41 to +50",
+    "Description": "holds fairness as one of the highest ideals and despises cheating of any kind",
+    "Effects": null
+  },
+  {
+    "Topic": "FAIRNESS",
+    "Value": "+26 to +40",
+    "Description": "has great respect for fairness",
+    "Effects": null
+  },
+  {
+    "Topic": "FAIRNESS",
+    "Value": "+11 to +25",
+    "Description": "respects fair-dealing and fair-play",
+    "Effects": null
+  },
+  {
+    "Topic": "FAIRNESS",
+    "Value": "\u221210 to +10",
+    "Description": "does not care about fairness",
+    "Effects": null
+  },
+  {
+    "Topic": "FAIRNESS",
+    "Value": "\u221225 to \u221211",
+    "Description": "sees life as unfair and doesn't mind it that way",
+    "Effects": null
+  },
+  {
+    "Topic": "FAIRNESS",
+    "Value": "\u221240 to \u221226",
+    "Description": "finds the idea of fair-dealing foolish and cheats when [he/she] finds it profitable",
+    "Effects": null
+  },
+  {
+    "Topic": "FAIRNESS",
+    "Value": "\u221250 to \u221241",
+    "Description": "is disgusted by the idea of fairness and will freely cheat anybody at any time",
+    "Effects": null
+  },
+  {
+    "Topic": "DECORUM",
+    "Value": "+41 to +50",
+    "Description": "views decorum as a high ideal and is deeply offended by those that fail to maintain it",
+    "Effects": null
+  },
+  {
+    "Topic": "DECORUM",
+    "Value": "+26 to +40",
+    "Description": "greatly respects those that observe decorum and maintain their dignity",
+    "Effects": null
+  },
+  {
+    "Topic": "DECORUM",
+    "Value": "+11 to +25",
+    "Description": "values decorum, dignity and proper behavior",
+    "Effects": null
+  },
+  {
+    "Topic": "DECORUM",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't care very much about decorum",
+    "Effects": null
+  },
+  {
+    "Topic": "DECORUM",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds maintaining decorum a silly, fumbling waste of time",
+    "Effects": null
+  },
+  {
+    "Topic": "DECORUM",
+    "Value": "\u221240 to \u221226",
+    "Description": "sees those that attempt to maintain dignified and proper behavior as vain and offensive",
+    "Effects": null
+  },
+  {
+    "Topic": "DECORUM",
+    "Value": "\u221250 to \u221241",
+    "Description": "is affronted by the whole notion of maintaining decorum and finds so-called dignified people disgusting",
+    "Effects": null
+  },
+  {
+    "Topic": "TRADITION",
+    "Value": "+41 to +50",
+    "Description": "holds the maintenance of tradition as one of the highest ideals",
+    "Effects": null
+  },
+  {
+    "Topic": "TRADITION",
+    "Value": "+26 to +40",
+    "Description": "is a firm believer in the value of tradition",
+    "Effects": null
+  },
+  {
+    "Topic": "TRADITION",
+    "Value": "+11 to +25",
+    "Description": "values tradition",
+    "Effects": null
+  },
+  {
+    "Topic": "TRADITION",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't have any strong feelings about tradition",
+    "Effects": null
+  },
+  {
+    "Topic": "TRADITION",
+    "Value": "\u221225 to \u221211",
+    "Description": "disregards tradition",
+    "Effects": null
+  },
+  {
+    "Topic": "TRADITION",
+    "Value": "\u221240 to \u221226",
+    "Description": "finds the following of tradition foolish and limiting",
+    "Effects": null
+  },
+  {
+    "Topic": "TRADITION",
+    "Value": "\u221250 to \u221241",
+    "Description": "is disgusted by tradition and would flout any [he/she] encounters if given a chance",
+    "Effects": null
+  },
+  {
+    "Topic": "ARTWORK",
+    "Value": "+41 to +50",
+    "Description": "believes that the creation and appreciation of artwork is one of the highest ideals",
+    "Effects": null
+  },
+  {
+    "Topic": "ARTWORK",
+    "Value": "+26 to +40",
+    "Description": "greatly respects artists and their works",
+    "Effects": null
+  },
+  {
+    "Topic": "ARTWORK",
+    "Value": "+11 to +25",
+    "Description": "values artwork",
+    "Effects": null
+  },
+  {
+    "Topic": "ARTWORK",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't care about art one way or another",
+    "Effects": null
+  },
+  {
+    "Topic": "ARTWORK",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds artwork boring",
+    "Effects": null
+  },
+  {
+    "Topic": "ARTWORK",
+    "Value": "\u221240 to \u221226",
+    "Description": "sees the whole pursuit of art as silly",
+    "Effects": null
+  },
+  {
+    "Topic": "ARTWORK",
+    "Value": "\u221250 to \u221241",
+    "Description": "finds art offensive and would have it destroyed whenever possible",
+    "Effects": null
+  },
+  {
+    "Topic": "COOPERATION",
+    "Value": "+41 to +50",
+    "Description": "places cooperation as one of the highest ideals",
+    "Effects": null
+  },
+  {
+    "Topic": "COOPERATION",
+    "Value": "+26 to +40",
+    "Description": "sees cooperation as very important in life",
+    "Effects": null
+  },
+  {
+    "Topic": "COOPERATION",
+    "Value": "+11 to +25",
+    "Description": "values cooperation",
+    "Effects": null
+  },
+  {
+    "Topic": "COOPERATION",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't see cooperation as valuable",
+    "Effects": null
+  },
+  {
+    "Topic": "COOPERATION",
+    "Value": "\u221225 to \u221211",
+    "Description": "dislikes cooperation",
+    "Effects": null
+  },
+  {
+    "Topic": "COOPERATION",
+    "Value": "\u221240 to \u221226",
+    "Description": "views cooperation as a low ideal not worthy of any respect",
+    "Effects": null
+  },
+  {
+    "Topic": "COOPERATION",
+    "Value": "\u221250 to \u221241",
+    "Description": "is thoroughly disgusted by cooperation",
+    "Effects": null
+  },
+  {
+    "Topic": "INDEPENDENCE",
+    "Value": "+41 to +50",
+    "Description": "believes that freedom and independence are completely non-negotiable and would fight to defend them",
+    "Effects": null
+  },
+  {
+    "Topic": "INDEPENDENCE",
+    "Value": "+26 to +40",
+    "Description": "treasures independence",
+    "Effects": null
+  },
+  {
+    "Topic": "INDEPENDENCE",
+    "Value": "+11 to +25",
+    "Description": "values independence",
+    "Effects": null
+  },
+  {
+    "Topic": "INDEPENDENCE",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't really value independence one way or another",
+    "Effects": null
+  },
+  {
+    "Topic": "INDEPENDENCE",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds the ideas of independence and freedom somewhat foolish",
+    "Effects": null
+  },
+  {
+    "Topic": "INDEPENDENCE",
+    "Value": "\u221240 to \u221226",
+    "Description": "sees freedom and independence as completely worthless",
+    "Effects": null
+  },
+  {
+    "Topic": "INDEPENDENCE",
+    "Value": "\u221250 to \u221241",
+    "Description": "hates freedom and would crush the independent spirit wherever it is found",
+    "Effects": null
+  },
+  {
+    "Topic": "STOICISM",
+    "Value": "+41 to +50",
+    "Description": "views any show of emotion as offensive",
+    "Effects": "cannot learn Consoler (unless overridden by extreme SWAYED_BY_EMOTIONS, CRUELTY, or DISCORD)"
+  },
+  {
+    "Topic": "STOICISM",
+    "Value": "+26 to +40",
+    "Description": "thinks it is of the utmost importance to present a bold face and never grouse, complain or even show emotion",
+    "Effects": "cannot learn Consoler (unless overridden by extreme SWAYED_BY_EMOTIONS, CRUELTY, or DISCORD)"
+  },
+  {
+    "Topic": "STOICISM",
+    "Value": "+11 to +25",
+    "Description": "believes it is important to conceal emotions and refrain from complaining",
+    "Effects": "can learn Consoler (subject to SWAYED_BY_EMOTIONS, CRUELTY, and DISCORD)"
+  },
+  {
+    "Topic": "STOICISM",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't see much value in being stoic",
+    "Effects": "can learn Consoler (subject to SWAYED_BY_EMOTIONS, CRUELTY, and DISCORD)"
+  },
+  {
+    "Topic": "STOICISM",
+    "Value": "\u221225 to \u221211",
+    "Description": "sees no value in holding back complaints and concealing emotions",
+    "Effects": "can learn Consoler (subject to SWAYED_BY_EMOTIONS, CRUELTY, and DISCORD)"
+  },
+  {
+    "Topic": "STOICISM",
+    "Value": "\u221240 to \u221226",
+    "Description": "feels that those who attempt to conceal their emotions are vain and foolish",
+    "Effects": "can learn Consoler (subject to SWAYED_BY_EMOTIONS, CRUELTY, and DISCORD)"
+  },
+  {
+    "Topic": "STOICISM",
+    "Value": "\u221250 to \u221241",
+    "Description": "sees concealment of emotions as a betrayal and tries [his/her] best never to associate with such secretive fools",
+    "Effects": "can learn Consoler (subject to SWAYED_BY_EMOTIONS, CRUELTY, and DISCORD)"
+  },
+  {
+    "Topic": "INTROSPECTION",
+    "Value": "+41 to +50",
+    "Description": "feels that introspection and all forms of self-examination are the keys to a good life and worthy of respect",
+    "Effects": null
+  },
+  {
+    "Topic": "INTROSPECTION",
+    "Value": "+26 to +40",
+    "Description": "deeply values introspection",
+    "Effects": null
+  },
+  {
+    "Topic": "INTROSPECTION",
+    "Value": "+11 to +25",
+    "Description": "sees introspection as important",
+    "Effects": null
+  },
+  {
+    "Topic": "INTROSPECTION",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't really see the value in self-examination",
+    "Effects": null
+  },
+  {
+    "Topic": "INTROSPECTION",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds introspection to be a waste of time",
+    "Effects": null
+  },
+  {
+    "Topic": "INTROSPECTION",
+    "Value": "\u221240 to \u221226",
+    "Description": "thinks that introspection is valueless and those that waste time in self-examination are deluded fools",
+    "Effects": null
+  },
+  {
+    "Topic": "INTROSPECTION",
+    "Value": "\u221250 to \u221241",
+    "Description": "finds the whole idea of introspection completely offensive and contrary to the ideals of a life well-lived",
+    "Effects": null
+  },
+  {
+    "Topic": "SELF_CONTROL",
+    "Value": "+41 to +50",
+    "Description": "believes that self-mastery and the denial of impulses are of the highest ideals",
+    "Effects": null
+  },
+  {
+    "Topic": "SELF_CONTROL",
+    "Value": "+26 to +40",
+    "Description": "finds moderation and self-control to be very important",
+    "Effects": null
+  },
+  {
+    "Topic": "SELF_CONTROL",
+    "Value": "+11 to +25",
+    "Description": "values self-control",
+    "Effects": null
+  },
+  {
+    "Topic": "SELF_CONTROL",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't particularly value self-control",
+    "Effects": null
+  },
+  {
+    "Topic": "SELF_CONTROL",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds those that deny their impulses somewhat stiff",
+    "Effects": null
+  },
+  {
+    "Topic": "SELF_CONTROL",
+    "Value": "\u221240 to \u221226",
+    "Description": "sees the denial of impulses as a vain and foolish pursuit",
+    "Effects": null
+  },
+  {
+    "Topic": "SELF_CONTROL",
+    "Value": "\u221250 to \u221241",
+    "Description": "has abandoned any attempt at self-control and finds the whole concept deeply offensive",
+    "Effects": null
+  },
+  {
+    "Topic": "TRANQUILITY",
+    "Value": "+41 to +50",
+    "Description": "views tranquility as one of the highest ideals",
+    "Effects": "cannot learn Intimidator (unless overridden by extreme ASSERTIVENESS or DISCORD)"
+  },
+  {
+    "Topic": "TRANQUILITY",
+    "Value": "+26 to +40",
+    "Description": "strongly values tranquility and quiet",
+    "Effects": "cannot learn Intimidator (unless overridden by extreme ASSERTIVENESS or DISCORD)"
+  },
+  {
+    "Topic": "TRANQUILITY",
+    "Value": "+11 to +25",
+    "Description": "values tranquility and a peaceful day",
+    "Effects": "can learn Intimidator (subject to POWER and HARMONY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "TRANQUILITY",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't have a preference between tranquility and tumult",
+    "Effects": "can learn Intimidator (subject to POWER and HARMONY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "TRANQUILITY",
+    "Value": "\u221225 to \u221211",
+    "Description": "prefers a noisy, bustling life to boring days without activity",
+    "Effects": "can learn Intimidator (subject to POWER and HARMONY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "TRANQUILITY",
+    "Value": "\u221240 to \u221226",
+    "Description": "is greatly disturbed by quiet and a peaceful existence",
+    "Effects": "can learn Intimidator (subject to POWER and HARMONY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "TRANQUILITY",
+    "Value": "\u221250 to \u221241",
+    "Description": "is disgusted by tranquility and would that the world would constantly churn with noise and activity",
+    "Effects": "can learn Intimidator (subject to POWER and HARMONY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "HARMONY",
+    "Value": "+41 to +50",
+    "Description": "would have the world operate in complete harmony without the least bit of strife or disorder",
+    "Effects": "cannot learn Intimidator (unless overridden by extreme ASSERTIVENESS or DISCORD)"
+  },
+  {
+    "Topic": "HARMONY",
+    "Value": "+26 to +40",
+    "Description": "strongly believes that a peaceful and ordered society without dissent is best",
+    "Effects": "cannot learn Intimidator (unless overridden by extreme ASSERTIVENESS or DISCORD)"
+  },
+  {
+    "Topic": "HARMONY",
+    "Value": "+11 to +25",
+    "Description": "values a harmonious existence",
+    "Effects": "can learn Intimidator (subject to POWER and TRANQUILITY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "HARMONY",
+    "Value": "\u221210 to +10",
+    "Description": "sees equal parts of harmony and discord as part of life",
+    "Effects": "can learn Intimidator (subject to POWER and TRANQUILITY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "HARMONY",
+    "Value": "\u221225 to \u221211",
+    "Description": "doesn't respect a society that has settled into harmony without debate and strife",
+    "Effects": "can learn Intimidator (subject to POWER and TRANQUILITY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "HARMONY",
+    "Value": "\u221240 to \u221226",
+    "Description": "can't fathom why anyone would want to live in an orderly and harmonious society",
+    "Effects": "can learn Intimidator (subject to POWER and TRANQUILITY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "HARMONY",
+    "Value": "\u221250 to \u221241",
+    "Description": "believes deeply that chaos and disorder are the truest expressions of life and would disrupt harmony wherever it is found",
+    "Effects": "can learn Intimidator (subject to POWER and TRANQUILITY, subject to ASSERTIVENESS and DISCORD)"
+  },
+  {
+    "Topic": "MERRIMENT",
+    "Value": "+41 to +50",
+    "Description": "believes that little is better in life than a good party",
+    "Effects": "can learn Comedian (subject to HUMOR)"
+  },
+  {
+    "Topic": "MERRIMENT",
+    "Value": "+26 to +40",
+    "Description": "truly values merrymaking and parties",
+    "Effects": "can learn Comedian (subject to HUMOR)"
+  },
+  {
+    "Topic": "MERRIMENT",
+    "Value": "+11 to +25",
+    "Description": "finds merrymaking and partying worthwhile activities",
+    "Effects": "can learn Comedian (subject to HUMOR)"
+  },
+  {
+    "Topic": "MERRIMENT",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't really value merrymaking",
+    "Effects": "can learn Comedian (subject to HUMOR)"
+  },
+  {
+    "Topic": "MERRIMENT",
+    "Value": "\u221225 to \u221211",
+    "Description": "sees merrymaking as a waste",
+    "Effects": "can learn Comedian (subject to HUMOR)"
+  },
+  {
+    "Topic": "MERRIMENT",
+    "Value": "\u221240 to \u221226",
+    "Description": "is disgusted by merrymakers",
+    "Effects": "cannot learn Comedian (unless overriden by extreme HUMOR)"
+  },
+  {
+    "Topic": "MERRIMENT",
+    "Value": "\u221250 to \u221241",
+    "Description": "is appalled by merrymaking, parties and other such worthless activities",
+    "Effects": "cannot learn Comedian (unless overriden by extreme HUMOR)"
+  },
+  {
+    "Topic": "CRAFTSMANSHIP",
+    "Value": "+41 to +50",
+    "Description": "holds crafts[man]ship to be of the highest ideals and celebrates talented artisans and their masterworks",
+    "Effects": null
+  },
+  {
+    "Topic": "CRAFTSMANSHIP",
+    "Value": "+26 to +40",
+    "Description": "has a great deal of respect for worthy crafts[man]ship",
+    "Effects": null
+  },
+  {
+    "Topic": "CRAFTSMANSHIP",
+    "Value": "+11 to +25",
+    "Description": "values good crafts[man]ship",
+    "Effects": null
+  },
+  {
+    "Topic": "CRAFTSMANSHIP",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't particularly care about crafts[man]ship",
+    "Effects": null
+  },
+  {
+    "Topic": "CRAFTSMANSHIP",
+    "Value": "\u221225 to \u221211",
+    "Description": "considers crafts[man]ship to be relatively worthless",
+    "Effects": null
+  },
+  {
+    "Topic": "CRAFTSMANSHIP",
+    "Value": "\u221240 to \u221226",
+    "Description": "sees the pursuit of good crafts[man]ship as a total waste",
+    "Effects": null
+  },
+  {
+    "Topic": "CRAFTSMANSHIP",
+    "Value": "\u221250 to \u221241",
+    "Description": "views crafts[man]ship with disgust and would desecrate a so-called masterwork or two if [he/she] could get away with it",
+    "Effects": null
+  },
+  {
+    "Topic": "MARTIAL_PROWESS",
+    "Value": "+41 to +50",
+    "Description": "believes that martial prowess defines the good character of an individual",
+    "Effects": null
+  },
+  {
+    "Topic": "MARTIAL_PROWESS",
+    "Value": "+26 to +40",
+    "Description": "deeply respects skill at arms",
+    "Effects": null
+  },
+  {
+    "Topic": "MARTIAL_PROWESS",
+    "Value": "+11 to +25",
+    "Description": "values martial prowess",
+    "Effects": null
+  },
+  {
+    "Topic": "MARTIAL_PROWESS",
+    "Value": "\u221210 to +10",
+    "Description": "does not really value skills related to fighting",
+    "Effects": null
+  },
+  {
+    "Topic": "MARTIAL_PROWESS",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds those that develop skill with weapons and fighting distasteful",
+    "Effects": null
+  },
+  {
+    "Topic": "MARTIAL_PROWESS",
+    "Value": "\u221240 to \u221226",
+    "Description": "thinks that the pursuit of the skills of warfare and fighting is a low pursuit indeed",
+    "Effects": null
+  },
+  {
+    "Topic": "MARTIAL_PROWESS",
+    "Value": "\u221250 to \u221241",
+    "Description": "abhors those that pursue the mastery of weapons and skill with fighting",
+    "Effects": null
+  },
+  {
+    "Topic": "SKILL",
+    "Value": "+41 to +50",
+    "Description": "believes that the mastery of a skill is one of the highest pursuits",
+    "Effects": null
+  },
+  {
+    "Topic": "SKILL",
+    "Value": "+26 to +40",
+    "Description": "really respects those that take the time to master a skill",
+    "Effects": null
+  },
+  {
+    "Topic": "SKILL",
+    "Value": "+11 to +25",
+    "Description": "respects the development of skill",
+    "Effects": null
+  },
+  {
+    "Topic": "SKILL",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't care if others take the time to master skills",
+    "Effects": null
+  },
+  {
+    "Topic": "SKILL",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds the pursuit of skill mastery off-putting",
+    "Effects": null
+  },
+  {
+    "Topic": "SKILL",
+    "Value": "\u221240 to \u221226",
+    "Description": "believes that the time taken to master a skill is a horrible waste",
+    "Effects": null
+  },
+  {
+    "Topic": "SKILL",
+    "Value": "\u221250 to \u221241",
+    "Description": "sees the whole idea of taking time to master a skill as appalling",
+    "Effects": null
+  },
+  {
+    "Topic": "HARD_WORK",
+    "Value": "+41 to +50",
+    "Description": "believes that hard work is one of the highest ideals and a key to the good life",
+    "Effects": null
+  },
+  {
+    "Topic": "HARD_WORK",
+    "Value": "+26 to +40",
+    "Description": "deeply respects those that work hard at their labors",
+    "Effects": null
+  },
+  {
+    "Topic": "HARD_WORK",
+    "Value": "+11 to +25",
+    "Description": "values hard work",
+    "Effects": null
+  },
+  {
+    "Topic": "HARD_WORK",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't really see the point of working hard",
+    "Effects": null
+  },
+  {
+    "Topic": "HARD_WORK",
+    "Value": "\u221225 to \u221211",
+    "Description": "sees working hard as a foolish waste of time",
+    "Effects": null
+  },
+  {
+    "Topic": "HARD_WORK",
+    "Value": "\u221240 to \u221226",
+    "Description": "thinks working hard is an abject idiocy",
+    "Effects": null
+  },
+  {
+    "Topic": "HARD_WORK",
+    "Value": "\u221250 to \u221241",
+    "Description": "finds the proposition that one should work hard in life utterly abhorrent",
+    "Effects": null
+  },
+  {
+    "Topic": "SACRIFICE",
+    "Value": "+41 to +50",
+    "Description": "finds sacrifice to be one of the highest ideals",
+    "Effects": null
+  },
+  {
+    "Topic": "SACRIFICE",
+    "Value": "+26 to +40",
+    "Description": "believes that those who sacrifice for others should be deeply respected",
+    "Effects": null
+  },
+  {
+    "Topic": "SACRIFICE",
+    "Value": "+11 to +25",
+    "Description": "values sacrifice",
+    "Effects": null
+  },
+  {
+    "Topic": "SACRIFICE",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't particularly respect sacrifice as a virtue",
+    "Effects": null
+  },
+  {
+    "Topic": "SACRIFICE",
+    "Value": "\u221225 to \u221211",
+    "Description": "sees sacrifice as wasteful and foolish",
+    "Effects": null
+  },
+  {
+    "Topic": "SACRIFICE",
+    "Value": "\u221240 to \u221226",
+    "Description": "finds sacrifice to be the height of folly",
+    "Effects": null
+  },
+  {
+    "Topic": "SACRIFICE",
+    "Value": "\u221250 to \u221241",
+    "Description": "thinks that the entire concept of sacrifice for others is truly disgusting",
+    "Effects": null
+  },
+  {
+    "Topic": "COMPETITION",
+    "Value": "+41 to +50",
+    "Description": "holds the idea of competition among the most important values and would encourage it wherever possible",
+    "Effects": null
+  },
+  {
+    "Topic": "COMPETITION",
+    "Value": "+26 to +40",
+    "Description": "views competition as a crucial driving force in the world",
+    "Effects": null
+  },
+  {
+    "Topic": "COMPETITION",
+    "Value": "+11 to +25",
+    "Description": "sees competition as reasonably important",
+    "Effects": null
+  },
+  {
+    "Topic": "COMPETITION",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't have strong views on competition",
+    "Effects": null
+  },
+  {
+    "Topic": "COMPETITION",
+    "Value": "\u221225 to \u221211",
+    "Description": "sees competition as wasteful and silly",
+    "Effects": null
+  },
+  {
+    "Topic": "COMPETITION",
+    "Value": "\u221240 to \u221226",
+    "Description": "deeply dislikes competition",
+    "Effects": null
+  },
+  {
+    "Topic": "COMPETITION",
+    "Value": "\u221250 to \u221241",
+    "Description": "finds the very idea of competition obscene",
+    "Effects": null
+  },
+  {
+    "Topic": "PERSEVERANCE",
+    "Value": "+41 to +50",
+    "Description": "believes that perseverance is one of the greatest qualities somebody can have",
+    "Effects": null
+  },
+  {
+    "Topic": "PERSEVERANCE",
+    "Value": "+26 to +40",
+    "Description": "greatly respects individuals that persevere through their trials and labors",
+    "Effects": null
+  },
+  {
+    "Topic": "PERSEVERANCE",
+    "Value": "+11 to +25",
+    "Description": "respects perseverance",
+    "Effects": null
+  },
+  {
+    "Topic": "PERSEVERANCE",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't think much about the idea of perseverance",
+    "Effects": null
+  },
+  {
+    "Topic": "PERSEVERANCE",
+    "Value": "\u221225 to \u221211",
+    "Description": "sees perseverance in the face of adversity as bull-headed and foolish",
+    "Effects": null
+  },
+  {
+    "Topic": "PERSEVERANCE",
+    "Value": "\u221240 to \u221226",
+    "Description": "thinks there is something deeply wrong with people that persevere through adversity",
+    "Effects": null
+  },
+  {
+    "Topic": "PERSEVERANCE",
+    "Value": "\u221250 to \u221241",
+    "Description": "finds the notion that one would persevere through adversity completely abhorrent",
+    "Effects": null
+  },
+  {
+    "Topic": "LEISURE_TIME",
+    "Value": "+41 to +50",
+    "Description": "believes that it would be a fine thing if all time were leisure time",
+    "Effects": "maybe can learn Conversationalist? (maybe subject to FRIENDSHIP?, subject to GREGARIOUSNESS and BASHFUL)"
+  },
+  {
+    "Topic": "LEISURE_TIME",
+    "Value": "+26 to +40",
+    "Description": "treasures leisure time and thinks it is very important in life",
+    "Effects": "maybe can learn Conversationalist? (maybe subject to FRIENDSHIP?, subject to GREGARIOUSNESS and BASHFUL)"
+  },
+  {
+    "Topic": "LEISURE_TIME",
+    "Value": "+11 to +25",
+    "Description": "values leisure time",
+    "Effects": "maybe can learn Conversationalist? (maybe subject to FRIENDSHIP?, subject to GREGARIOUSNESS and BASHFUL)"
+  },
+  {
+    "Topic": "LEISURE_TIME",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't think one way or the other about leisure time",
+    "Effects": "maybe can learn Conversationalist? (maybe subject to FRIENDSHIP?, subject to GREGARIOUSNESS and BASHFUL)"
+  },
+  {
+    "Topic": "LEISURE_TIME",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds leisure time wasteful",
+    "Effects": "maybe can learn Conversationalist? (maybe subject to FRIENDSHIP?, subject to GREGARIOUSNESS and BASHFUL)"
+  },
+  {
+    "Topic": "LEISURE_TIME",
+    "Value": "\u221240 to \u221226",
+    "Description": "is offended by leisure time and leisurely living",
+    "Effects": "maybe cannot learn Conversationalist? (unless overridden by extreme GREGARIOUSNESS or BASHFUL)"
+  },
+  {
+    "Topic": "LEISURE_TIME",
+    "Value": "\u221250 to \u221241",
+    "Description": "believes that those that take leisure time are evil and finds the whole idea disgusting",
+    "Effects": "maybe cannot learn Conversationalist? (unless overridden by extreme GREGARIOUSNESS or BASHFUL)"
+  },
+  {
+    "Topic": "COMMERCE",
+    "Value": "+41 to +50",
+    "Description": "sees engaging in commerce as a high ideal in life",
+    "Effects": null
+  },
+  {
+    "Topic": "COMMERCE",
+    "Value": "+26 to +40",
+    "Description": "really respects commerce and those that engage in trade",
+    "Effects": null
+  },
+  {
+    "Topic": "COMMERCE",
+    "Value": "+11 to +25",
+    "Description": "respects commerce",
+    "Effects": null
+  },
+  {
+    "Topic": "COMMERCE",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't particularly respect commerce",
+    "Effects": null
+  },
+  {
+    "Topic": "COMMERCE",
+    "Value": "\u221225 to \u221211",
+    "Description": "is somewhat put off by trade and commerce",
+    "Effects": null
+  },
+  {
+    "Topic": "COMMERCE",
+    "Value": "\u221240 to \u221226",
+    "Description": "finds those that engage in trade and commerce to be fairly disgusting",
+    "Effects": null
+  },
+  {
+    "Topic": "COMMERCE",
+    "Value": "\u221250 to \u221241",
+    "Description": "holds the view that commerce is a vile obscenity",
+    "Effects": null
+  },
+  {
+    "Topic": "ROMANCE",
+    "Value": "+41 to +50",
+    "Description": "sees romance as one of the highest ideals",
+    "Effects": null
+  },
+  {
+    "Topic": "ROMANCE",
+    "Value": "+26 to +40",
+    "Description": "thinks romance is very important in life",
+    "Effects": null
+  },
+  {
+    "Topic": "ROMANCE",
+    "Value": "+11 to +25",
+    "Description": "values romance",
+    "Effects": null
+  },
+  {
+    "Topic": "ROMANCE",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't care one way or the other about romance",
+    "Effects": null
+  },
+  {
+    "Topic": "ROMANCE",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds romance distasteful",
+    "Effects": null
+  },
+  {
+    "Topic": "ROMANCE",
+    "Value": "\u221240 to \u221226",
+    "Description": "is somewhat disgusted by romance",
+    "Effects": null
+  },
+  {
+    "Topic": "ROMANCE",
+    "Value": "\u221250 to \u221241",
+    "Description": "finds even the abstract idea of romance repellent",
+    "Effects": null
+  },
+  {
+    "Topic": "NATURE",
+    "Value": "+41 to +50",
+    "Description": "holds nature to be of greater value than most aspects of civilization",
+    "Effects": "Receives unhappy thought when slaughtering/caging animals and felling trees.v0.42.01"
+  },
+  {
+    "Topic": "NATURE",
+    "Value": "+26 to +40",
+    "Description": "has a deep respect for animals, plants and the natural world",
+    "Effects": "Receives unhappy thought when slaughtering/caging animals and felling trees.v0.42.01"
+  },
+  {
+    "Topic": "NATURE",
+    "Value": "+11 to +25",
+    "Description": "values nature",
+    "Effects": null
+  },
+  {
+    "Topic": "NATURE",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't care about nature one way or another",
+    "Effects": null
+  },
+  {
+    "Topic": "NATURE",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds nature somewhat disturbing",
+    "Effects": "Receives happy thought when slaughtering/caging animals and felling trees.v0.42.01"
+  },
+  {
+    "Topic": "NATURE",
+    "Value": "\u221240 to \u221226",
+    "Description": "has a deep dislike of the natural world",
+    "Effects": "Receives happy thought when slaughtering/caging animals and felling trees.v0.42.01"
+  },
+  {
+    "Topic": "NATURE",
+    "Value": "\u221250 to \u221241",
+    "Description": "would just as soon have nature and the great outdoors burned to ashes and converted into a great mining pit",
+    "Effects": "Receives happy thought when slaughtering/caging animals and felling trees.v0.42.01"
+  },
+  {
+    "Topic": "PEACE",
+    "Value": "+41 to +50",
+    "Description": "believes the idea of war is utterly repellent and would have peace at all costs",
+    "Effects": "can learn Pacifier (subject to DISCORD)"
+  },
+  {
+    "Topic": "PEACE",
+    "Value": "+26 to +40",
+    "Description": "believes that peace is always preferable to war",
+    "Effects": "can learn Pacifier (subject to DISCORD)"
+  },
+  {
+    "Topic": "PEACE",
+    "Value": "+11 to +25",
+    "Description": "values peace over war",
+    "Effects": "can learn Pacifier (subject to DISCORD)"
+  },
+  {
+    "Topic": "PEACE",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't particularly care between war and peace",
+    "Effects": "can learn Pacifier (subject to DISCORD)"
+  },
+  {
+    "Topic": "PEACE",
+    "Value": "\u221225 to \u221211",
+    "Description": "sees war as a useful means to an end",
+    "Effects": "can learn Pacifier (subject to DISCORD)"
+  },
+  {
+    "Topic": "PEACE",
+    "Value": "\u221240 to \u221226",
+    "Description": "believes war is preferable to peace in general",
+    "Effects": "cannot learn Pacifier (unless overriden by extreme DISCORD)"
+  },
+  {
+    "Topic": "PEACE",
+    "Value": "\u221250 to \u221241",
+    "Description": "thinks that the world should be engaged in perpetual warfare",
+    "Effects": "cannot learn Pacifier (unless overriden by extreme DISCORD)"
+  },
+  {
+    "Topic": "KNOWLEDGE",
+    "Value": "+41 to +50",
+    "Description": "finds the quest for knowledge to be of the very highest value",
+    "Effects": null
+  },
+  {
+    "Topic": "KNOWLEDGE",
+    "Value": "+26 to +40",
+    "Description": "views the pursuit of knowledge as deeply important",
+    "Effects": null
+  },
+  {
+    "Topic": "KNOWLEDGE",
+    "Value": "+11 to +25",
+    "Description": "values knowledge",
+    "Effects": null
+  },
+  {
+    "Topic": "KNOWLEDGE",
+    "Value": "\u221210 to +10",
+    "Description": "doesn't see the attainment of knowledge as important",
+    "Effects": null
+  },
+  {
+    "Topic": "KNOWLEDGE",
+    "Value": "\u221225 to \u221211",
+    "Description": "finds the pursuit of knowledge to be a waste of effort",
+    "Effects": null
+  },
+  {
+    "Topic": "KNOWLEDGE",
+    "Value": "\u221240 to \u221226",
+    "Description": "thinks the quest for knowledge is a delusional fantasy",
+    "Effects": null
+  },
+  {
+    "Topic": "KNOWLEDGE",
+    "Value": "\u221250 to \u221241",
+    "Description": "sees the attainment and preservation of knowledge as an offensive enterprise engaged in by arrogant fools",
+    "Effects": null
+  }
+]
