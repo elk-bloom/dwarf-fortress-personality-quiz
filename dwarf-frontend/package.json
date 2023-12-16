@@ -3,6 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
+    "format": "prettier --write ./src",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
@@ -10,7 +11,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.3.2",
+    "@astrojs/check": "^0.3.3",
+    "@astrojs/node": "^7.0.1",
     "astro": "^4.0.5",
     "typescript": "^5.3.3"
   },
@@ -19,6 +21,20 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^18.2.45"
+    "prettier": "^3.1.1",
+    "prettier-plugin-astro": "^0.12.2"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": "*.astro",
+        "options": {
+          "parser": "astro"
+        }
+      }
+    ],
+    "plugins": [
+      "prettier-plugin-astro"
+    ]
   }
 }

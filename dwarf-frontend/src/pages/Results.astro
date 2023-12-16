@@ -1,0 +1,73 @@
+---
+export const prerender = false;
+
+const request = Astro.request;
+const formData = await request.formData();
+console.log(formData);
+
+type QuizResult = {
+  name: string;
+  description: string;
+  index: number; // higher means they like it more!
+}
+
+type QuizResults = {
+  [key: string]: QuizResult;
+}
+
+const name = formData.get("name");
+const sex = formData.get("sex");
+const additionalInfo = formData.get("additional-info");
+formData.delete("name");
+formData.delete("sex")
+formData.delete("additional-info");
+
+let formDataArray: [string, FormDataEntryValue][] = [];
+for (const entry of formData.entries()) {
+  const [key, value] = entry as [string, FormDataEntryValue];
+  if (value == null || value == "") continue;
+  formDataArray.push([key, value]);
+}
+
+const quizResults: QuizResults = formDataArray.reduce((acc, [key, value]) => {
+  const split = key.split("-", 2);
+  const topic = split[0];
+  if (split.length === 1) {
+    if (topic in acc) {
+      acc[topic].index = Number(value);
+    } else {
+      acc[topic] = {
+        name: topic,
+        description: "",
+        index: Number(value)
+      }
+    }
+  } else {
+    if (topic in acc) {
+      acc[topic].description = value.toString();
+    } else {
+      acc[topic] = {
+        name: topic,
+        description: value.toString(),
+        index: null! 
+      }
+    }
+  }
+  
+  return acc;
+}, {} as QuizResults);
+
+---
+
+<div>
+  <h1>Personality Quiz Results for {name}</h1>
+  {additionalInfo && <p>{additionalInfo}</p>} 
+  <ul>
+    {Object.values(quizResults).map(result => (
+      <li>
+        <h3>{result.name}</h3>
+        <p>{result.description}</p>
+      </li>
+    ))}
+  </ul>
+</div>

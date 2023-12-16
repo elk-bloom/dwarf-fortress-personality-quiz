@@ -1,0 +1,36 @@
+---
+export const prerender = false;
+
+import type { Dictionary } from "@shared";
+import { Belief } from "@shared";
+
+import AdditionalInfoQuestion from "../components/AdditionalInfoQuestion.astro";
+import BeliefQuestion from "../components/BeliefQuestion.astro";
+import NameQuestion from "../components/NameQuestion.astro";
+import SexQuestion from "../components/SexQuestion.astro";
+
+const URL = "http://localhost:3000/beliefs";
+const response = await fetch(URL);
+const beliefsDictionary: Dictionary<string, Belief[]> = await response.json();
+---
+
+<div>
+  <h1>Questions</h1>
+  <form action="/Results" method="POST">
+    <NameQuestion />
+    <SexQuestion />
+    <AdditionalInfoQuestion />
+    {
+      Object.keys(beliefsDictionary).map((key: string) => {
+        const beliefs: Belief[] = beliefsDictionary[key];
+        return <BeliefQuestion topic={key} beliefs={beliefs} />;
+      })
+    }
+    <input type="submit" value="Submit" />
+  </form>
+</div>
+
+<script type="module">
+  const beliefsDictionaryJSON = JSON.stringify(beliefsDictionary);
+  sessionStorage.setItem("beliefsDictionary", beliefsDictionaryJSON);
+</script>

@@ -1,0 +1,53 @@
+---
+import { Belief } from "@shared";
+
+export interface Props {
+  topic: string;
+  beliefs: Belief[];
+}
+
+const { topic, beliefs } = Astro.props;
+---
+
+<div class="belief-question" data-topic={topic}>
+  <h2>What is your opinion of {topic}?</h2>
+  <input
+    type="hidden"
+    id={`${topic}-description`}
+    name={`${topic}-description`}
+  />
+  <div class="radio-buttons">
+    <span>Strongly Disfavor</span>
+    {
+      beliefs.map((belief, i) => (
+        <label for={`${belief.topic}-${i}`}>
+          <input
+            type="radio"
+            id={`${belief.topic}-${i}`}
+            name={belief.topic}
+            value={i}
+            data-description={belief.description}
+          />
+        </label>
+      ))
+    }
+    <span>Strongly Favor</span>
+  </div>
+</div>
+
+<script type="module">
+  function updateDescription(radioInput) {
+    const topic = radioInput.closest(".belief-question").dataset.topic;
+    const description = document.getElementById(`${topic}-description`);
+    if (description) {
+      description.value = radioInput.dataset.description;
+    }
+  }
+  document
+    .querySelectorAll(".belief-question input[type=radio]")
+    .forEach((radioInput) => {
+      radioInput.addEventListener("change", () =>
+        updateDescription(radioInput),
+      );
+    });
+</script>

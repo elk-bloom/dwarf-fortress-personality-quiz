@@ -1,7 +1,7 @@
 import { Belief } from "./models/Belief";
 import { Facet } from "./models/Facet";
 import { Goal } from "./models/Goal";
-import { Dictionary } from "./types/Dictionary";
+import type { Dictionary } from "./types/Dictionary";
 import { groupby } from "./utils/GroupBy";
 import {
   beliefsFromJson,
@@ -15,7 +15,6 @@ export {
   Belief,
   Facet,
   Goal,
-  Dictionary,
   groupby,
   beliefsFromJson,
   facetsFromJson,
@@ -23,3 +22,5 @@ export {
   groupBeliefsByTopic,
   groupFacetsByFacet,
 };
+
+export type { Dictionary };

@@ -2,7 +2,7 @@ import { Belief } from "../models/Belief";
 import { Facet } from "../models/Facet";
 import { Goal } from "../models/Goal";
 import { groupby } from "./GroupBy";
-import { Dictionary } from "../types/Dictionary";
+import type { Dictionary } from "../types/Dictionary";
 
 export function beliefsFromJson(json: object[]): Belief[] {
   return json.map((json: any) => {
@@ -45,18 +45,18 @@ export function goalsFromJson(json: object[]): Goal[] {
   });
 }
 
-export function groupBeliefsByTopic(beliefs: Belief[]): Dictionary<Belief> {
+export function groupBeliefsByTopic(beliefs: Belief[]): Dictionary<string, Belief[]> {
   const groupedBeliefs = groupby<Belief>(beliefs, (b) => b.topic);
   Object.keys(groupedBeliefs).forEach((key) => {
-    groupedBeliefs[key].sort((a, b) => a.lower - b.lower);
+    groupedBeliefs[key].sort((a: Belief, b: Belief) => a.lower - b.lower);
   });
   return groupedBeliefs;
 }
 
-export function groupFacetsByFacet(facets: Facet[]): Dictionary<Facet> {
+export function groupFacetsByFacet(facets: Facet[]): Dictionary<string, Facet[]> {
   const groupedFacets = groupby<Facet>(facets, (f) => f.facet);
   Object.keys(groupedFacets).forEach((key) => {
-    groupedFacets[key].sort((a, b) => a.lower - b.lower);
+    groupedFacets[key].sort((a: Facet, b: Facet) => a.lower - b.lower);
   });
   return groupedFacets;
 }

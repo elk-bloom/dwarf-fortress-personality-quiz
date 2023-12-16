@@ -1,1 +1,1 @@
-export type Dictionary<T> = { [key: string]: T[] };
+export type Dictionary<K extends string, V> = { [key in K]: V };
