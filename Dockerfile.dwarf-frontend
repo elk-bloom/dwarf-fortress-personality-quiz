@@ -1,0 +1,23 @@
+FROM node:lts AS base
+WORKDIR /dwarf-fortress-personality-quiz
+COPY package.json package-lock.json tsconfig.json ./
+COPY shared shared
+COPY dwarf-frontend dwarf-frontend
+
+FROM base AS prod-deps
+RUN npm install --omit=dev --workspace=dwarf-frontend 
+ 
+FROM base AS build-deps
+RUN npm install --workspace=dwarf-frontend 
+
+FROM build-deps AS build
+RUN npm run build --workspace=dwarf-frontend 
+
+FROM base AS runtime
+COPY --from=prod-deps /dwarf-fortress-personality-quiz/node_modules ./node_modules
+COPY --from=build /dwarf-fortress-personality-quiz/dwarf-frontend/dist ./dist
+
+ENV HOST=0.0.0.0
+ENV PORT=4321
+EXPOSE 4321
+CMD ["node", "./dist/server/entry.mjs"]

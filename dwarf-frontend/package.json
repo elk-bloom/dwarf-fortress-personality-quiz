@@ -8,7 +8,9 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "docker-build": "docker build -t dwarf-frontend .",
+    "docker-run": "docker run -p 4321:4321 dwarf-frontend"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.3",
