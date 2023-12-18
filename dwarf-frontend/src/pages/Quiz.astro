@@ -31,6 +31,33 @@ const beliefsDictionary: Dictionary<string, Belief[]> = await response.json();
 </div>
 
 <script type="module">
-  const beliefsDictionaryJSON = JSON.stringify(beliefsDictionary);
-  sessionStorage.setItem("beliefsDictionary", beliefsDictionaryJSON);
+  window.addEventListener("load", () => {
+    const form = document.querySelector("form");
+    const form_elements = form.elements;
+
+    for (let el of form_elements) {
+      if (!el.type === "hidden") {
+        continue;
+      }
+      let description = sessionStorage.getItem(el.id);
+      if (description) {
+        el.value = JSON.parse(description).value;
+      }
+    }
+  });
+
+  document.querySelector("form").addEventListener("change", (event) => {
+    const input_element = event.target;
+    if (input_element.type !== "radio") {
+      return;
+    }
+    const name = input_element.name;
+    const hidden_description_id = `${name}-description`;
+    const description = document.getElementById(hidden_description_id).value;
+
+    sessionStorage.setItem(
+      hidden_description_id,
+      JSON.stringify({ value: description }),
+    );
+  });
 </script>
