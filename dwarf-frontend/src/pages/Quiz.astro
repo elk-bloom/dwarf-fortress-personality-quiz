@@ -9,7 +9,9 @@ import BeliefQuestion from "../components/BeliefQuestion.astro";
 import NameQuestion from "../components/NameQuestion.astro";
 import SexQuestion from "../components/SexQuestion.astro";
 
-const URL = "http://localhost:3000/beliefs";
+// const URL = "http://localhost:3000/beliefs";
+console.log(process.env.APP_API_DOMAIN);
+const URL = `http://${process.env.APP_API_DOMAIN}:3000/beliefs`;
 const response = await fetch(URL);
 const beliefsDictionary: Dictionary<string, Belief[]> = await response.json();
 ---

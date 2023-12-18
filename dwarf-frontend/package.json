@@ -9,8 +9,8 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "docker-build": "docker build -f ../Dockerfile.dwarf-backend -t dwarf-frontend ..",
-    "docker-run": "docker run -p 4321:4321 dwarf-frontend"
+    "docker-build": "docker build -f ../Dockerfile.dwarf-frontend -t dwarf-frontend ..",
+    "docker-run": "docker run -p 4321:4321 -e APP_API_DOMAIN=host.docker.internal dwarf-frontend"
   },
   "dependencies": {
     "@astrojs/check": "^0.3.3",

@@ -13,7 +13,7 @@
   "scripts": {
     "format": "prettier --write ./src",
     "build": "tsc && tsc-alias",
-    "start": "npm run build && node dist/dwarf-backend/src/index.js",
+    "start": "npm run build && APP_API_DOMAIN=localhost node dist/dwarf-backend/src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "docker-build": "docker build -f ../Dockerfile.dwarf-backend -t dwarf-backend ..",
     "docker-run": "docker run -p 3000:3000 dwarf-backend"
