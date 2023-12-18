@@ -36,7 +36,7 @@ const beliefsDictionary: Dictionary<string, Belief[]> = await response.json();
     const form_elements = form.elements;
 
     for (let el of form_elements) {
-      if (!el.type === "hidden") {
+      if (el.type !== "hidden") {
         continue;
       }
       let description = sessionStorage.getItem(el.id);
