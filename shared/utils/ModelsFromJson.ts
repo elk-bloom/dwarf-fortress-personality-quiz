@@ -45,7 +45,9 @@ export function goalsFromJson(json: object[]): Goal[] {
   });
 }
 
-export function groupBeliefsByTopic(beliefs: Belief[]): Dictionary<string, Belief[]> {
+export function groupBeliefsByTopic(
+  beliefs: Belief[],
+): Dictionary<string, Belief[]> {
   const groupedBeliefs = groupby<Belief>(beliefs, (b) => b.topic);
   Object.keys(groupedBeliefs).forEach((key) => {
     groupedBeliefs[key].sort((a: Belief, b: Belief) => a.lower - b.lower);
@@ -53,7 +55,9 @@ export function groupBeliefsByTopic(beliefs: Belief[]): Dictionary<string, Belie
   return groupedBeliefs;
 }
 
-export function groupFacetsByFacet(facets: Facet[]): Dictionary<string, Facet[]> {
+export function groupFacetsByFacet(
+  facets: Facet[],
+): Dictionary<string, Facet[]> {
   const groupedFacets = groupby<Facet>(facets, (f) => f.facet);
   Object.keys(groupedFacets).forEach((key) => {
     groupedFacets[key].sort((a: Facet, b: Facet) => a.lower - b.lower);
