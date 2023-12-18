@@ -8,8 +8,9 @@
     "shared"
   ],
   "scripts": {
-    "build-backend": "tsc -b dwarf-backend",
-    "build-frontend": "tsc -b dwarf-frontend",
+    "format": "npm run format --workspaces",
+    "build-backend": "npm run build -w dwarf-backend",
+    "build-frontend": "npm run build -w dwarf-frontend",
     "build": "npm run build-backend && npm run build-frontend",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
