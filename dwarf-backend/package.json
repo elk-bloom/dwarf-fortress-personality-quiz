@@ -12,11 +12,11 @@
   },
   "scripts": {
     "format": "prettier --write ./src",
-    "build": "tsc && tsc-alias",
+    "build": "tsc && tsc-alias && cp -r ./data ./dist/dwarf-backend/data",
     "start": "npm run build && APP_API_DOMAIN=localhost node dist/dwarf-backend/src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "docker-build": "docker build -f ../Dockerfile.dwarf-backend -t dwarf-backend ..",
-    "docker-run": "docker run -p 3000:3000 dwarf-backend"
+    "docker-run": "docker run --init --rm -p 3000:3000 -it dwarf-backend"
   },
   "author": "",
   "license": "ISC",
