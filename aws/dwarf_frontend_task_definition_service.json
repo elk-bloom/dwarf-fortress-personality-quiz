@@ -1,0 +1,25 @@
+{
+    "service": {
+        "serviceName": "dwarf-frontend-service",
+        "taskDefinition": "dwarf-frontend",
+        "desiredCount": 2,
+        "launchType": "FARGATE",
+        "networkConfiguration": {
+            "awsvpcConfiguration": {
+                "subnets": ["<frontend-subnet-id>"],
+                "securityGroups": ["<frontend-sg-id>"],
+                "assignPublicIp": "ENABLED"
+            }
+        },
+        "loadBalancers": [
+            {
+                "targetGroupArn": "<frontend-target-group-arn>",
+                "containerName": "dwarf-frontend",
+                "containerPort": 4321
+            }
+        ],
+        "serviceRegistries": {
+            "registryArn": "<frontend-service-registry-arn>"
+        }
+    }
+}

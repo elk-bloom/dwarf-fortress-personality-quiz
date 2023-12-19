@@ -1,0 +1,20 @@
+{
+    "service": {
+        "serviceName": "dwarf-backend-service",
+        "taskDefinition": "dwarf-backend",
+        "desiredCount": 2,
+        "launchType": "FARGATE",
+        "networkConfiguration": {
+            "awsvpcConfiguration": {
+                "subnets": ["<backend-subnet-id>"],
+                "securityGroups": ["<backend-sg-id>"],
+                "assignPublicIp": "DISABLED"
+            }
+        },
+        "serviceRegistries": {
+            "registryArn": "<backend-service-registry-arn>",
+            "containerName": "dwarf-backend",
+            "containerPort": 3000
+        }
+    }
+}

@@ -1,60 +1,37 @@
 {
     "family": "dwarf-backend",
     "containerDefinitions": [
-      {
-        "name": "express-backend",
-        "image": "your-aws-account-id.dkr.ecr.your-region.amazonaws.com/dwarf-backend:latest",
-        "essential": true,
-        "memory": 512,
-        "cpu": 256,
-        "portMappings": [
-          {
-            "containerPort": 3000
-          }
-        ],
-        "environment": [
-          {
-            "name": "NODE_ENV",
-            "value": "production"
-          }
-        ],
-        "proxyConfiguration": {
-          "type": "APPMESH",
-          "containerName": "envoy",
-          "properties": [
-            {
-              "name": "AppPorts",
-              "value": "3000"
-            },
-            {
-              "name": "EgressIgnoredIPs",
-              "value": "169.254.170.2,169.254.169.254"
+        {
+            "name": "dwarf-backend",
+            "image": "your-docker-image-repo/dwarf-backend:latest",
+            "essential": true,
+            "memory": 512,
+            "cpu": 256,
+            "portMappings": [
+                {
+                    "containerPort": 3000,
+                    "hostPort": 3000
+                }
+            ],
+            "environment": [
+                {
+                    "name": "NODE_ENV",
+                    "value": "production"
+                }
+            ],
+            "logConfiguration": {
+                "logDriver": "awslogs",
+                "options": {
+                    "awslogs-group": "/ecs/service-connect-dwarf-backend",
+                    "awslogs-region": "us-east-1",
+                    "awslogs-stream-prefix": "dwarf-backend"
+                }
             }
-          ]
         }
-      },
-      {
-        "name": "envoy",
-        "image": "public.ecr.aws/appmesh/aws-appmesh-envoy:v1.19.1.0-prod",
-        "essential": true,
-        "memory": 256,
-        "cpu": 256,
-        "user": "1337",
-        "healthCheck": {
-          "retries": 3,
-          "command": [
-            "CMD-SHELL",
-            "curl -s http://localhost:9901/server_info | grep state | grep -q LIVE"
-          ],
-          "timeout": 2,
-          "interval": 5,
-          "startPeriod": 10
-        }
-      }
     ],
     "requiresCompatibilities": ["FARGATE"],
     "networkMode": "awsvpc",
-    "memory": "1024",
-    "cpu": "512",
-    "executionRoleArn": "arn:aws:iam::your-account-id:role/ecsTaskExecutionRole"
-  }
+    "executionRoleArn": "arn:aws:iam::your-account-id:role/ecsTaskExecutionRole",
+    "cpu": "256",
+    "memory": "512"
+}
