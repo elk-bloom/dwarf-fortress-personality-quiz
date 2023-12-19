@@ -67,8 +67,9 @@
     # verify that the namespace is created in AWS Cloud Map
     # If the previous command\'s output has a serviceConnectDefaults namespace of "arn:aws:servicediscovery:us-west-2:123456789012:namespace/ns-EXAMPLE", the --id argument should be "ns-EXAMPLE" without quotes
     aws servicediscovery --profile <your-profile> get-namespace --id <id-from-output-of-previous-command> 
-    # list all the services in the namespace and record the IDs if they are necessary
-    aws servicediscovery --profile <your-profile> --region <your-aws-region> --filters Name=NAMESPACE_ID,Values=<your-namespace-id>
+    # TODO: incorrect below remove
+    ### list all the services in the namespace and record the IDs if they are necessary
+    ##aws servicediscovery --profile <your-profile> --region <your-aws-region> --filters Name=NAMESPACE_ID,Values=<your-namespace-id>
     ```
     
 12. Create [task definitions](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html) for your applications if they don't exist.
@@ -77,12 +78,18 @@
     ```bash
     aws ecs --profile <your-profile> register-task-definition --cli-input-json file://<path-to-task-definition>.json
     ```
+    
+14. Create a Cloud Map Services if you will be using Service Connect.
+    ```bash
+    aws servicediscovery --profile <your-profile> create-service --name <service-name> --namespace-id <your-namespace-id> --region <your-aws-region>
+    # list all the services in the namespace and record the IDs if they are necessary
+    aws servicediscovery --profile <your-profile> --region <your-aws-region> --filters Name=NAMESPACE_ID,Values=<your-namespace-id>
+    ```
 
-14. Create Services that run your task definitions. Adjust json inputs as needed based on the task definitions.
-    Without Service Connect:
+15. Create ECS Services that run your task definitions. Adjust json inputs as needed based on the task definitions and Cloud Map Services, if used.
     ```bash
     aws ecs --profile <your-profile> create-service --cluster <your-cluster> --cli-input-json file://<path-to-service-inputs-file>.json
     ```
     
-15. TODO: Configure a load balancer if required and update your services to use it.
+16. TODO: Configure a load balancer if required and update your services to use it.
 
