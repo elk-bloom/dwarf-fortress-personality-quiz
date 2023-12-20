@@ -8,7 +8,6 @@ on:
 jobs: 
   build-and-deploy:
     runs-on: ubuntu-latest
-    if: contains(github.ref, 'frontend') || contains(github.ref, 'shared')
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -22,8 +21,8 @@ jobs:
 
     - name: Build Backend Docker Image
       run: |
-        chmod +x ../../build_frontend.sh
-        ../../build_frontend.sh
+        chmod +x ./build_frontend.sh
+        ./build_frontend.sh
     
     - name: Tag Backend Docker Image
       run: |
