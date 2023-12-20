@@ -1,0 +1,43 @@
+on:
+  push:
+    branches:
+      - main  
+    tags:
+      - v*
+
+jobs: 
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    if: contains(github.ref, 'backend') || contains(github.ref, 'shared')
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    
+    - name: Login to Amazon ECR
+      uses: aws-actions/amazon-ecr-login@v1
+      env: 
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: ${{ secrets.AWS_REGION }}
+
+    - name: Build Backend Docker Image
+      run: |
+        chmod +x ../../build_backend.sh
+        ../../build_backend.sh
+    
+    - name: Tag Backend Docker Image
+      run: |
+        docker tag backend:latest ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/backend:latest   
+        
+    - name: Push Backend Docker Image
+      run: |
+        docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/backend:latest
+    
+    - name: Force Deploy of Backend Service
+      env: 
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      run: |
+        aws ecs update-service --cluster ${{ secrets.AWS_ECS_CLUSTER }} --service dwarf-backend-service --force-new-deployment
+    
+      
