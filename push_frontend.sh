@@ -15,4 +15,4 @@ docker push $aws_account_id.dkr.ecr.us-east-2.amazonaws.com/dwarf-frontend:lates
 
 # force new deployment
 profile="$2"
-aws esc --profile $profile update-service --cluster dwarf-cluster --service dwarf-frontend-service --force-new-deployment
+aws ecs --profile $profile update-service --cluster dwarf-cluster --service dwarf-frontend-service --force-new-deployment
