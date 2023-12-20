@@ -33,7 +33,9 @@ jobs:
         docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/dwarf-frontend:latest
     
     - name: Force Deploy of Frontend Service
+      env:
+        AWS_REGION: ${{ secrets.AWS_REGION }}
       run: |
-        aws ecs update-service --cluster dwarf-cluster --service dwarf-frontend-service-2 --force-new-deployment --debug
+        aws ecs update-service --cluster dwarf-cluster --service dwarf-frontend-service-2 --force-new-deployment --debug --region ${{ secrets.AWS_REGION }}
     
       
