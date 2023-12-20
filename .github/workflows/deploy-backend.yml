@@ -38,6 +38,6 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: ${{ secrets.AWS_REGION }}
       run: |
-        aws ecs update-service --cluster dwarf-cluster --service dwarf-backend-service --force-new-deployment --region ${{ secrets.AWS_REGION }}
+        aws ecs update-service --cluster dwarf-cluster --service dwarf-backend-service --force-new-deployment --region ${{ secrets.AWS_REGION }} > /dev/null 2>&1
     
       
