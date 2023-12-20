@@ -33,10 +33,11 @@ jobs:
         docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/dwarf-backend:latest
     
     - name: Force Deploy of Backend Service
-      env: 
+      env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: ${{ secrets.AWS_REGION }}
       run: |
-        aws ecs update-service --cluster dwarf-cluster --service dwarf-backend-service --force-new-deployment
+        aws ecs update-service --cluster dwarf-cluster --service dwarf-backend-service --force-new-deployment --region ${{ secrets.AWS_REGION }}
     
       
