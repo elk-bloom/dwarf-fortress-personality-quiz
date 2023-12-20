@@ -16,8 +16,12 @@ const response = await fetch(URL);
 const beliefsDictionary: Dictionary<string, Belief[]> = await response.json();
 ---
 
+<style>
+  h1 { color: red; }
+</style>
+
 <div>
-  <h1 color="red">Questions</h1>
+  <h1>Questions</h1>
   <form action="/Results" method="POST">
     <NameQuestion />
     <SexQuestion />
