@@ -26,11 +26,11 @@ jobs:
     
     - name: Tag Backend Docker Image
       run: |
-        docker tag backend:latest ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/backend:latest   
+        docker tag dwarf-backend:latest ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/dwarf-backend:latest   
         
     - name: Push Backend Docker Image
       run: |
-        docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/backend:latest
+        docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/dwarf-backend:latest
     
     - name: Force Deploy of Backend Service
       env: 

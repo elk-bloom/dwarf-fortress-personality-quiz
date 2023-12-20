@@ -19,20 +19,20 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: ${{ secrets.AWS_REGION }}
 
-    - name: Build Backend Docker Image
+    - name: Build Frontend Docker Image
       run: |
         chmod +x ./build_frontend.sh
         ./build_frontend.sh
     
-    - name: Tag Backend Docker Image
+    - name: Tag Frontend Docker Image
       run: |
-        docker tag frontend:latest ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/frontend:latest   
+        docker tag dwarf-frontend:latest ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/dwarf-frontend:latest   
         
-    - name: Push Backend Docker Image
+    - name: Push Frontend Docker Image
       run: |
-        docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/frontend:latest
+        docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/dwarf-frontend:latest
     
-    - name: Force Deploy of Backend Service
+    - name: Force Deploy of Frontend Service
       env: 
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
