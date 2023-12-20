@@ -1384,47 +1384,6 @@
     "Value": "\u221250 to \u221241",
     "Description": "sees the attainment and preservation of knowledge as an offensive enterprise engaged in by arrogant fools",
     "Effects": null
-  },
-  {
-    "Topic": "SWEETS",
-    "Value": "+41 to +50",
-    "Description": "finds the quest for sweets to be of the very highest value",
-    "Effects": null
-  },
-  {
-    "Topic": "SWEETS",
-    "Value": "+26 to +40",
-    "Description": "views the pursuit of sweets as deeply important",
-    "Effects": null
-  },
-  {
-    "Topic": "SWEETS",
-    "Value": "+11 to +25",
-    "Description": "values sweets",
-    "Effects": null
-  },
-  {
-    "Topic": "SWEETS",
-    "Value": "\u221210 to +10",
-    "Description": "doesn't see the attainment of sweets as important",
-    "Effects": null
-  },
-  {
-    "Topic": "SWEETS",
-    "Value": "\u221225 to \u221211",
-    "Description": "finds the pursuit of sweets to be a waste of effort",
-    "Effects": null
-  },
-  {
-    "Topic": "SWEETS",
-    "Value": "\u221240 to \u221226",
-    "Description": "thinks the quest for sweets is a delusional fantasy",
-    "Effects": null
-  },
-  {
-    "Topic": "SWEETS",
-    "Value": "\u221250 to \u221241",
-    "Description": "sees the attainment and preservation of sweets as an offensive enterprise engaged in by arrogant fools",
-    "Effects": null
   }
+ 
 ]
