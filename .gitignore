@@ -77,10 +77,6 @@ public/
 *.o
 *.so
 
-# Package lock files
-package-lock.json
-yarn.lock
-
 # Compiled Static files
 *.gz
 *.br
