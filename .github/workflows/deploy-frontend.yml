@@ -28,37 +28,12 @@ jobs:
       run: |
         docker tag dwarf-frontend:latest ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/dwarf-frontend:latest   
         
-        
-    - name: Check if Frontend Docker Image exists in ECR
-      id: check_image
-      run: |
-        IMAGE_EXISTS=$(aws ecr describe-images \
-          --repository-name dwarf-frontend \
-          --image-ids imageTag=latest \
-          --region ${{ secrets.AWS_REGION }} \
-          --output text \
-          2>/dev/null || echo "No such image")
-    
-        if [[ "$IMAGE_EXISTS" == "No such image" ]]; then
-          echo "Image does not exist in ECR."
-          echo "::set-output name=exists::false"
-        else
-          echo "Image exists in ECR."
-          echo "::set-output name=exists::true"
-        fi
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-    
     - name: Push Frontend Docker Image
       run: |
         docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/dwarf-frontend:latest
     
     - name: Force Deploy of Frontend Service
-      env: 
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: |
-        aws ecs update-service --cluster dwarf-cluster --service dwarf-frontend-service-2 --force-new-deployment
+        aws ecs update-service --cluster dwarf-cluster --service dwarf-frontend-service-2 --force-new-deployment --debug
     
       
