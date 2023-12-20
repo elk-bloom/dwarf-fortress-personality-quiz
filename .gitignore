@@ -87,3 +87,5 @@ yarn.lock
 
 # Docker files
 docker-compose.override.yml
+
+aws/*secret*

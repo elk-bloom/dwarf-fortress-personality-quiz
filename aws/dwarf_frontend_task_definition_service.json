@@ -1,25 +1,40 @@
 {
-    "service": {
-        "serviceName": "dwarf-frontend-service",
-        "taskDefinition": "dwarf-frontend",
-        "desiredCount": 2,
-        "launchType": "FARGATE",
-        "networkConfiguration": {
-            "awsvpcConfiguration": {
-                "subnets": ["<frontend-subnet-id>"],
-                "securityGroups": ["<frontend-sg-id>"],
-                "assignPublicIp": "ENABLED"
-            }
-        },
-        "loadBalancers": [
+    "cluster": "dwarf-cluster",
+    "serviceName": "dwarf-frontend-service",
+    "taskDefinition": "dwarf-frontend",
+    "desiredCount": 1,
+    "launchType": "FARGATE",
+    "networkConfiguration": {
+        "awsvpcConfiguration": {
+            "subnets": ["<subnet>"],
+            "securityGroups": ["<security_group>"],
+            "assignPublicIp": "ENABLED"
+        }
+    },
+    "serviceRegistries": [
+        {
+        "registryArn": "<registry_argn>",
+        "containerName": "dwarf-frontend"
+    }],
+    "serviceConnectConfiguration": {
+        "enabled": true,
+        "services": [
             {
-                "targetGroupArn": "<frontend-target-group-arn>",
-                "containerName": "dwarf-frontend",
-                "containerPort": 4321
+                "portName": "dwarf-frontend-port",
+                "clientAliases": [
+                    {
+                        "port": 4321
+                    }
+                ]
             }
         ],
-        "serviceRegistries": {
-            "registryArn": "<frontend-service-registry-arn>"
+        "logConfiguration": {
+            "logDriver": "awslogs",
+            "options": {
+                "awslogs-group": "/ecs/service-connect-dwarf-frontend",
+                "awslogs-region": "us-east-2",
+                "awslogs-stream-prefix": "dwarf-frontend"
+            }
         }
     }
 }

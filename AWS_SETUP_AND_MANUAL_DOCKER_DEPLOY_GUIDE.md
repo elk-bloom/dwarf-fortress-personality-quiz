@@ -67,9 +67,10 @@
     # verify that the namespace is created in AWS Cloud Map
     # If the previous command\'s output has a serviceConnectDefaults namespace of "arn:aws:servicediscovery:us-west-2:123456789012:namespace/ns-EXAMPLE", the --id argument should be "ns-EXAMPLE" without quotes
     aws servicediscovery --profile <your-profile> get-namespace --id <id-from-output-of-previous-command> 
-    # TODO: incorrect below remove
-    ### list all the services in the namespace and record the IDs if they are necessary
-    ##aws servicediscovery --profile <your-profile> --region <your-aws-region> --filters Name=NAMESPACE_ID,Values=<your-namespace-id>
+    ```
+12. If necessary, create log groups for your services.
+    ```bash
+    aws logs --profile <your-profile> create-log-group --log-group-name <log-group-name> --region <your-aws-region>
     ```
     
 12. Create [task definitions](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/task_definitions.html) for your applications if they don't exist.
